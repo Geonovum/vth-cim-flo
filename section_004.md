@@ -1,4 +1,5 @@
 # Objecttypen  {#0983F58C}
+
 In dit hoofdstuk specificeren we de onderscheiden objecttypen, in alfabetische volgorde, en vermelden de daarbij behorende attribuut- en relatiesoorten. In de laatste paragraaf specificeren we de relatieklassen. De specificaties van de attribuut- en relatiesoorten vermelden we in het volgende hoofdstuk. 
 ## <span style='color: #003359;'>ACTIVITEIT</span> {#756D16BE}
 <table id='d4e4059' style='width: 100%;'><colgroup><col id='col1' style='width: 30.211159608352013%;'>

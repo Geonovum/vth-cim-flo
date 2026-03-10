@@ -1,4 +1,5 @@
 # <span style='color: #003359;'>Gestructureerde datatypen</span> {#69B026E5}
+
 ## <span style='color: #003359;'>Gestructureerd datatype NEN3610ID</span> {#25D100C0}
 <table id='d4e238510' style='width: 100%;'><colgroup><col id='col1' style='width: 30.211159608352013%;'>
 <col id='col2' style='width: 69.788840391648%;'>

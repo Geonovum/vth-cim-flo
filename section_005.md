@@ -1,4 +1,4 @@
-# <span style='color: #003359;'>Attribuut- en relatiesoorten</span> {#36401368}
+# Attribuut- en relatiesoorten {#36401368}
 In dit hoofdstuk specificeren we de attribuut- en relatiesoorten per onderscheiden objecttype, in alfabetische volgorde, en relatieklassen.
 ## ACTIVITEIT {#4187F514}
 ### <span style='color: #003359;'>Attribuutsoort Activiteit-identificatie</span> {#17D1DC94}

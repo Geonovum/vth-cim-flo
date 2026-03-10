@@ -1,5 +1,7 @@
 # Inleiding {#705AA419}
+
 ## Aanleiding {#66BB17D2}
+
 De Algemene Rekenkamer constateerde in 2021 dat de gegevens over milieucriminaliteit en -overtredingen ernstig tekortschieten: “Het gebrek aan informatie leidt niet alleen tot een gebrek aan inzicht, maar maakt ook dat de overheid niet adequaat kan bijsturen. Ineffectief beleid kan blijven voortbestaan zonder dat iemand het weet. Ook kan ongelijke behandeling van bedrijven optreden, bijvoorbeeld nadat een overtreding wordt geconstateerd.”
 De commissie Van Aartsen heeft gesignaleerd dat dit niet alleen geldt voor milieucriminaliteit (in de zin van strafrechtelijke opsporing en handhaving), maar een breed gedeeld probleem is in de informatievoorziening van het VTH-stelsel<span class='noot'>[1]<span class='noottekst'> VTH-stelsel: organisatievorm waarin diverse (semi-)overheidsorganisaties samenwerken om VTH-taken uit te voeren; <br/>
 (semi-)overheidsorganisaties nemen deel in een wetgevende, beleid makende en/of uitvoerende rol<br/>
@@ -21,18 +23,20 @@ Dit informatiemodel helpt bij:
 </ul>
 
 ## Toepassingsgebied {#06FAC224}
+
 Het CIm VTH FLo is bedoeld voor het gebied van vergunningverlening, toezicht en handhaving in het domein van de fysieke leefomgeving. Het richt zich hierbij op de kerngegevens voor het VTH-stelsel. Het gaat dan om gegevens waarvan het van belang is dat deze op stelselniveau beschikbaar zijn om de besturing van het VTH-stelsel als geheel te ondersteunen<span class='noot'>[3]<span class='noottekst'> In deze versie van het informatiemodel is alleen de juridische situatie en deels de feitelijke situatie in de fysieke  leefomgeving uitgewerkt. Verdere uitwerking volgt in volgende versies en in deeldomeinmodellen. <br/>
 </span></span>. 
 Binnen het VTH-stelsel van de fysieke leefomgeving bestaan al verschillende informatiemodellen. Deze modellen beschrijven ieder een deeldomein binnen het volledige domein. Het CIm VTH FLo beschrijft een model van kerngegevens dat de verbinding vormt tussen deze modellen. Het biedt een gemeenschappelijk kader om tot een samenhangend geheel van informatiemodellen te kunnen komen. 
 <a href='#'>Figuur 1</a> hieronder geeft een voorbeeld van de samenhang tussen enkele modellen<span class='noot'>[4]<span class='noottekst'> Zie bijlage 2 voor een omschrijving van deze modellen.<br/>
 </span></span> (niet limitatief).  
-<br/>
-<br/>
-<figure id='d4e380'><img src='media/image3.png' alt='Afbeelding 1' style='width: 100%;'></img>
-<figcaption><br/>
- Afbakening toepassingsgebieden informatiemodellen</figcaption></figure>
+
+<figure id="d4e380">
+   <img src="media/image3.png" alt="">
+   <figcaption>afbakening toepassingsgebieden informatiemodellen</figcaption>
+</figure>
 
 ## Werkwijze {#31E69354}
+
 De ontwikkeling van dit informatiemodel is medio 2023 gestart binnen het programma IBP VTH, een interbestuurlijk programma waar alle stelselpartijen bij betrokken waren. Dit programma is in oktober 2024 opgevolgd door het programma “Digitalisering VTH”. Het programma valt onder de verantwoordelijkheid van het ministerie van Infrastructuur en Waterstaat. Het eerder genoemde project ‘Eenheid van Taal’ maakt deel uit van dit programma. 
 Deze versie van het informatiemodel wordt gepubliceerd en is bedoeld om in gebruik te nemen. Vaststelling van het informatiemodel vindt plaats langs de governance van het programma. 
 De 0.9.1-versie is breed gereviewd. In deze 1.0-versie zijn de opmerkingen verwerkt van onder meer  omgevingsdiensten, waterschappen, gemeenten, IPO, UvW, VNG, ILT, DSO, software leveranciers en beheerders van bestaande informatiestandaarden binnen de fysieke leefomgeving die raakvlakken hebben met VTH. 
@@ -45,9 +49,10 @@ Het CIm VTH FLo is opgesteld onder begeleiding van een werkgroep bestaande uit v
 <br/>
 <b>Toegepaste methodiek</b>
 Voor de ontwikkeling van het informatiemodel is begonnen met een begrippenlijst. Vervolgens zijn zgn. triples opgesteld ter ondersteuning van de te maken keuzes in het informatiemodel. Een triple is een zogenaamde feitenzin. Deze verwoord een feit uit het domein en is opgebouwd uit twee begrippen met daartussen een werkwoordvervoeging (bijvoorbeeld ‘initiatiefnemer dient in vergunningaanvraag’).  Deze triples zijn zoveel mogelijk opgesteld op basis van zgn. user-stories die praktijkvoorbeelden uit het VTH -domein beschrijven. Daarnaast zijn bestaande informatiemodellen in dit domein geanalyseerd en waar mogelijk benut. Op basis van deze bronnen zijn vervolgens objecttypes, de relaties daartussen en de omschrijving van de objecttypes en relaties uitgewerkt en vastgelegd in Archimate-notatie (versie t/m 0.3). Vervolgens is overgestapt op vastlegging in UML conform de MIM-standaard<span class='noot'>[5]<span class='noottekst'> Zie https://docs.geostandaarden.nl/mim/mim/ <br/>
-</span>.
+</span></span>.
 
 ## Toepassing informatiemodel door stelselpartners {#0710165A}
+
 Voor de toepassing van het informatiemodel zijn een aantal uitgangspunten geformuleerd. 
 Het Conceptueel Informatiemodel VTH Fysieke Leefomgeving:
 <ul><li>is het vertrekpunt voor eenheid in begrippen en gezamenlijke taal in het VTH-stelsel voor de fysieke leefomgeving wanneer partijen in het digitale VTH-stelsel met elkaar communiceren.</li>
@@ -65,7 +70,7 @@ Het Conceptueel Informatiemodel VTH Fysieke Leefomgeving:
 </ul>
 </li>
 </ul>
-Het gaan toepassen van dit informatiemodel in de dagelijkse praktijk behelst meer dan alleen het verwerken van dit model in VTH-software. Het vereist bijvoorbeeld afspraken over hoe bepaalde praktijksituaties op basis van dit model geregistreerd worden. De voorliggende beschrijving doet hierover geen uitspraken. Dit zal door de VTH-stelselpartners gezamenlijk be- en afgesproken moeten worden.  
+Het gaan toepassen van dit informatiemodel in de dagelijkse praktijk behelst meer dan alleen het verwerken van dit model in VTH-software. Het vereist bijvoorbeeld afspraken over hoe bepaalde praktijksituaties op basis van dit model geregistreerd worden. De voorliggende beschrijving doet hierover geen uitspraken. Dit zal door de VTH-stelselpartners gezamenlijk be- en afgesproken moeten worden. 
 
 ## Leeswijzer {#7BD6D5BF}
 Begin met het lezen van hoofdstuk 2, het informatiemodel op hoofdlijnen. Dit geeft zowel inzicht in de opbouw van dit document en daarmee de structuur waarin het informatiemodel is beschreven, als een globale indruk van de structuur en inhoud van het informatiemodel. 

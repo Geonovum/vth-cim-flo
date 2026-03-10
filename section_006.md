@@ -1,4 +1,5 @@
-# <span style='color: #003359;'>Waardenlijsten</span> {#289DE600}
+# Waardenlijsten {#289DE600}
+
 <img src='media/image21.png' alt='Afbeelding 1' style='width: 100%;'></img>
 ## Enumeratie Adresaanduidingsoort {#59353AC6}
 <table id='d4e218301' style='width: 100%;'><colgroup><col id='col1' style='width: 100%;'>

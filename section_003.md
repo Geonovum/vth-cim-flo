@@ -1,4 +1,5 @@
 # Informatiemodel in detail {#3177618B}
+
 In dit hoofdstuk visualiseren we de structuur van het informatiemodel en lichten deze toe. We doen dat door middel van een aantal ‘views’ waarin we telkens een deel van het informatiemodel belichten. Per view twee diagrammen, zie par. 2.1. Om een goed beeld te krijgen van de samenhang en het geheel, overlappen de views. De specificaties van de in de views vermelde objecttypen en relatiesoorten vermelden we in de volgende hoofdstukken. De views zijn hieronder in alfabetische volgorde opgenomen. Het betreffen:
 <ul><li>Activiteitview</li>
 <li>Betrokkene-view</li>
