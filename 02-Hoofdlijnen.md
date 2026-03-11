@@ -1,6 +1,6 @@
-# Informatiemodel op hoofdlijnen {#6CCEB4B8}
+# Informatiemodel op hoofdlijnen
 
-## Introductie {#5BF1720C}
+## Introductie
 
 In dit en de volgende hoofdstukken beschrijven we het informatiemodel. Het gaat hier om een zgn. conceptueel informatiemodel (CIm), de modellering van de werkelijkheid binnen het beschouwde domein door middel van de structuur, semantiek en de eigenschappen van informatie over dingen in die werkelijkheid. Een conceptueel informatiemodel is onafhankelijk van het ontwerp van en de implementatie in systemen. Het geeft een zo getrouw mogelijke beschrijving van die werkelijkheid en is in natuurlijke taal geformuleerd (dit kan op gespannen voet staan voor modelelementen die overgenomen zijn uit andere informatiemodellen).
 
@@ -26,9 +26,9 @@ In de volgende paragraaf beschrijven we de structuur van het informatiemodel op 
 Deze view geeft een overzicht van de belangrijkste objecttypen in het model. Lang niet alle objecttypen zijn hierin opgenomen, evenmin als alle relaties. Zie daarvoor de detail-views.
   
 Centraal staan de Activiteituitvoering, de uitvoering van een (type) Activiteit door een Betrokkene in, op of met een VTH-object, en dat VTH-object zelf. Qua informatie hierover gaat het om zowel de gereguleerde situatie (wat is er vergund, gemeld et cetera) als de feitelijke situatie (dit geldt ook voor andere objecttypen, indien van toepassing). Om een Activiteit uit te mogen voeren (een Activiteituitvoering) moet voor veel Activiteiten een Verzoek ingediend worden en een Toestemming (in een vergunning) verleend zijn (of een melding zijn gedaan of voldaan zijn aan een informatieplicht). Die uitvoering vindt plaats binnen, of maakt gebruik van een zgn. VTH-object.
-   
+
 Op de Activiteituitvoeringen en bepaalde VTH-objecten wordt toezicht gehouden en waar nodig gehandhaafd. Centraal daarin staat de Controle op naleving van de gestelde regels. Een aanleiding voor een Controle is bijvoorbeeld een Incident (niet vermeld in de figuur). Naar aanleiding van Bevindingen bij een Controle kan geoordeeld worden dat er sprake is van Overtredingen. Deze kunnen leiden tot handhaving door middel van het opleggen van Handhavingsmaatregelen.
- 
+
 Processen voor bijvoorbeeld het verlenen van Toestemmingen of het uitvoeren van Controles worden zaakgericht uitgevoerd. De gegevens over die procesuitvoering worden als Zaak vastgelegd.
 
 In onderstaande figuur wordt gevisualiseerd in welke view de getoonde objecttypen te vinden zijn; de views zelf bevatten meer objecttypen.
