@@ -1,0 +1,1714 @@
+[
+  {
+    "url": "http://localhost:8080/snapshot.html",
+    "id": "color-contrast",
+    "impact": "serious",
+    "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=webdriverjs",
+    "nodes": [
+      {
+        "target": [
+          ".sidelabel"
+        ],
+        "html": "<div class=\"sidelabel\">Geonovum Informatiemodel - Werkversie</div>",
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+      }
+    ]
+  },
+  {
+    "url": "http://localhost:8080/snapshot.html",
+    "id": "target-size",
+    "impact": "serious",
+    "description": "Ensure touch targets have sufficient size and space",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/target-size?application=webdriverjs",
+    "nodes": [
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ACTIVITEIT_Activiteitidentificatie\"><bdi class=\"secno\">3.23.1.1.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">ACTIVITEIT</span> Activiteit-identificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ACTIVITEIT_Activiteitengroep\"><bdi class=\"secno\">3.23.1.1.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">ACTIVITEIT</span> Activiteitengroep</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ACTIVITEIT_Activiteitnaam\"><bdi class=\"secno\">3.23.1.1.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">ACTIVITEIT</span> Activiteitnaam</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ACTIVITEIT_IndicatieImOwactiviteit\"><bdi class=\"secno\">3.23.1.1.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">ACTIVITEIT</span> Indicatie Im­Ow-activiteit</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ACTIVITEIT_isgereguleerdin\"><bdi class=\"secno\">3.23.1.1.5 </bdi>Relatiesoort details  <span class=\"formerLink\">ACTIVITEIT</span> is gereguleerd in</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ACTIVITEIT_heeftbovenliggende\"><bdi class=\"secno\">3.23.1.1.6 </bdi>Relatiesoort details  <span class=\"formerLink\">ACTIVITEIT</span> heeft bovenliggende</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(3) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ACTIVITEITMELDING_Indicatiegeaccepteerd\"><bdi class=\"secno\">3.23.1.3.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">ACTIVITEITMELDING</span> Indicatie geaccepteerd</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(3) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ACTIVITEITMELDING_isingedienddmv\"><bdi class=\"secno\">3.23.1.3.2 </bdi>Relatiesoort details  <span class=\"formerLink\">ACTIVITEITMELDING</span> is ingediend d.m.v.</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(4) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ACTIVITEITUITVOERING_Activiteituitvoeringidentificatie\"><bdi class=\"secno\">3.23.1.4.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">ACTIVITEITUITVOERING</span> Activiteituitvoering-identificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(4) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ACTIVITEITUITVOERING_Beeindigingsdatum\"><bdi class=\"secno\">3.23.1.4.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">ACTIVITEITUITVOERING</span> Beeindigingsdatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(4) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ACTIVITEITUITVOERING_Kwalificatie\"><bdi class=\"secno\">3.23.1.4.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">ACTIVITEITUITVOERING</span> Kwalificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(4) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ACTIVITEITUITVOERING_Omschrijving\"><bdi class=\"secno\">3.23.1.4.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">ACTIVITEITUITVOERING</span> Omschrijving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(4) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ACTIVITEITUITVOERING_Ontstaansdatum\"><bdi class=\"secno\">3.23.1.4.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">ACTIVITEITUITVOERING</span> Ontstaansdatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(4) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ACTIVITEITUITVOERING_Status\"><bdi class=\"secno\">3.23.1.4.6 </bdi>Attribuutsoort details  <span class=\"formerLink\">ACTIVITEITUITVOERING</span> Status</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(4) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ACTIVITEITUITVOERING_vindtplaatsbinnen\"><bdi class=\"secno\">3.23.1.4.7 </bdi>Relatiesoort details  <span class=\"formerLink\">ACTIVITEITUITVOERING</span> vindt plaats binnen</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(4) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ACTIVITEITUITVOERING_heeftalsverantwoordelijke\"><bdi class=\"secno\">3.23.1.4.8 </bdi>Relatiesoort details  <span class=\"formerLink\">ACTIVITEITUITVOERING</span> heeft als verantwoordelijke</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(4) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ACTIVITEITUITVOERING_isvantype\"><bdi class=\"secno\">3.23.1.4.9 </bdi>Relatiesoort details  <span class=\"formerLink\">ACTIVITEITUITVOERING</span> is van type</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(4) > .toc > .tocline:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ACTIVITEITUITVOERING_gebruikt\"><bdi class=\"secno\">3.23.1.4.10 </bdi>Relatiesoort details  <span class=\"formerLink\">ACTIVITEITUITVOERING</span> gebruikt</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(4) > .toc > .tocline:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ACTIVITEITUITVOERING_heeftalstoezichtinstantie\"><bdi class=\"secno\">3.23.1.4.11 </bdi>Relatiesoort details  <span class=\"formerLink\">ACTIVITEITUITVOERING</span> heeft als toezichtinstantie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(4) > .toc > .tocline:nth-child(12) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ACTIVITEITUITVOERING_wordtgedaandoor\"><bdi class=\"secno\">3.23.1.4.12 </bdi>Relatiesoort details  <span class=\"formerLink\">ACTIVITEITUITVOERING</span> wordt gedaan door</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(4) > .toc > .tocline:nth-child(13) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ACTIVITEITUITVOERING_heeftalsbevoegdgezag\"><bdi class=\"secno\">3.23.1.4.13 </bdi>Relatiesoort details  <span class=\"formerLink\">ACTIVITEITUITVOERING</span> heeft als bevoegd gezag</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ADRESSEERBAAROBJECT_Adresobjectidentificatie\"><bdi class=\"secno\">3.23.1.5.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">ADRESSEERBAAR OBJECT</span> Adresobjectidentificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(5) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ADRESSEERBAAROBJECT_maaktdeeluitvan\"><bdi class=\"secno\">3.23.1.5.2 </bdi>Relatiesoort details  <span class=\"formerLink\">ADRESSEERBAAR OBJECT</span> maakt deel uit van</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ALGEMEENVERBINDENDVOORSCHRIFT_Artikelenlidnummer\"><bdi class=\"secno\">3.23.1.6.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">ALGEMEEN VERBINDEND VOORSCHRIFT</span> Artikel- en lidnummer</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ALGEMEENVERBINDENDVOORSCHRIFT_Begindatumgeldigheid\"><bdi class=\"secno\">3.23.1.6.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">ALGEMEEN VERBINDEND VOORSCHRIFT</span> Begindatum geldigheid</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ALGEMEENVERBINDENDVOORSCHRIFT_Einddatumgeldigheid\"><bdi class=\"secno\">3.23.1.6.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">ALGEMEEN VERBINDEND VOORSCHRIFT</span> Einddatum geldigheid</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ALGEMEENVERBINDENDVOORSCHRIFT_Omschrijving\"><bdi class=\"secno\">3.23.1.6.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">ALGEMEEN VERBINDEND VOORSCHRIFT</span> Omschrijving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ALGEMEENVERBINDENDVOORSCHRIFT_Regelgever\"><bdi class=\"secno\">3.23.1.6.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">ALGEMEEN VERBINDEND VOORSCHRIFT</span> Regelgever</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ALGEMEENVERBINDENDVOORSCHRIFT_Regeling\"><bdi class=\"secno\">3.23.1.6.6 </bdi>Attribuutsoort details  <span class=\"formerLink\">ALGEMEEN VERBINDEND VOORSCHRIFT</span> Regeling</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ALGEMEENVERBINDENDVOORSCHRIFT_Regeltekstidentificatie\"><bdi class=\"secno\">3.23.1.6.7 </bdi>Attribuutsoort details  <span class=\"formerLink\">ALGEMEEN VERBINDEND VOORSCHRIFT</span> Regeltekstidentificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ALGEMEENVERBINDENDVOORSCHRIFT_heeftwerkingin\"><bdi class=\"secno\">3.23.1.6.8 </bdi>Relatiesoort details  <span class=\"formerLink\">ALGEMEEN VERBINDEND VOORSCHRIFT</span> heeft werking in</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(7) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ANDERGEOOBJECT_Bron\"><bdi class=\"secno\">3.23.1.7.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">ANDER GEO-OBJECT</span> Bron</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(7) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ANDERGEOOBJECT_Identificatie\"><bdi class=\"secno\">3.23.1.7.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">ANDER GEO-OBJECT</span> Identificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(7) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ANDERGEOOBJECT_Naam\"><bdi class=\"secno\">3.23.1.7.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">ANDER GEO-OBJECT</span> Naam</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(7) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ANDERGEOOBJECT_Type\"><bdi class=\"secno\">3.23.1.7.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">ANDER GEO-OBJECT</span> Type</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(8) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_BESLUIT_Besluitdatum\"><bdi class=\"secno\">3.23.1.8.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">BESLUIT</span> Besluitdatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(8) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_BESLUIT_Besluitidentificatie\"><bdi class=\"secno\">3.23.1.8.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">BESLUIT</span> Besluitidentificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(8) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_BESLUIT_Besluittypeomschrijving\"><bdi class=\"secno\">3.23.1.8.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">BESLUIT</span> Besluittype-omschrijving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(8) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_BESLUIT_Ingangsdatum\"><bdi class=\"secno\">3.23.1.8.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">BESLUIT</span> Ingangsdatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(8) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_BESLUIT_Publicatiedatum\"><bdi class=\"secno\">3.23.1.8.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">BESLUIT</span> Publicatiedatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(8) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_BESLUIT_Verantwoordelijkeorganisatie\"><bdi class=\"secno\">3.23.1.8.6 </bdi>Attribuutsoort details  <span class=\"formerLink\">BESLUIT</span> Verantwoordelijke organisatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(8) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_BESLUIT_betreftopleggenvan\"><bdi class=\"secno\">3.23.1.8.7 </bdi>Relatiesoort details  <span class=\"formerLink\">BESLUIT</span> betreft opleggen van</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(8) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_BESLUIT_heeftalsmotivering\"><bdi class=\"secno\">3.23.1.8.8 </bdi>Relatiesoort details  <span class=\"formerLink\">BESLUIT</span> heeft als motivering</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(8) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_BESLUIT_betreftverlenenvan\"><bdi class=\"secno\">3.23.1.8.9 </bdi>Relatiesoort details  <span class=\"formerLink\">BESLUIT</span> betreft verlenen van</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(8) > .toc > .tocline:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_BESLUIT_isuitkomstvan\"><bdi class=\"secno\">3.23.1.8.10 </bdi>Relatiesoort details  <span class=\"formerLink\">BESLUIT</span> is uitkomst van</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(8) > .toc > .tocline:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_BESLUIT_isvastgelegdals\"><bdi class=\"secno\">3.23.1.8.11 </bdi>Relatiesoort details  <span class=\"formerLink\">BESLUIT</span> is vastgelegd als</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(9) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_BETROKKENE_Adresaanduidingsoort\"><bdi class=\"secno\">3.23.1.9.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">BETROKKENE</span> Adresaanduidingsoort</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(9) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_BETROKKENE_Telefoonnummer\"><bdi class=\"secno\">3.23.1.9.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">BETROKKENE</span> Telefoonnummer</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(10) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_BEVINDING_Bevindingvolgnummer\"><bdi class=\"secno\">3.23.1.10.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">BEVINDING</span> Bevinding-volgnummer</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(10) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_BEVINDING_Bijzonderheden\"><bdi class=\"secno\">3.23.1.10.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">BEVINDING</span> Bijzonderheden</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(10) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_BEVINDING_Controleaandachtspunt\"><bdi class=\"secno\">3.23.1.10.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">BEVINDING</span> Controle-aandachtspunt</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(10) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_BEVINDING_Controleonderwerp\"><bdi class=\"secno\">3.23.1.10.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">BEVINDING</span> Controle-onderwerp</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(10) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_BEVINDING_Resultaat\"><bdi class=\"secno\">3.23.1.10.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">BEVINDING</span> Resultaat</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(10) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_BEVINDING_betreftspecifiekvoorschrift\"><bdi class=\"secno\">3.23.1.10.6 </bdi>Relatiesoort details  <span class=\"formerLink\">BEVINDING</span> betreft specifiek voorschrift</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(10) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_BEVINDING_betreftactiviteituitvoering\"><bdi class=\"secno\">3.23.1.10.7 </bdi>Relatiesoort details  <span class=\"formerLink\">BEVINDING</span> betreft activiteituitvoering</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(10) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_BEVINDING_betreftvthobject\"><bdi class=\"secno\">3.23.1.10.8 </bdi>Relatiesoort details  <span class=\"formerLink\">BEVINDING</span> betreft vth-object</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(10) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_BEVINDING_isuitkomstvan\"><bdi class=\"secno\">3.23.1.10.9 </bdi>Relatiesoort details  <span class=\"formerLink\">BEVINDING</span> is uitkomst van</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(10) > .toc > .tocline:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_BEVINDING_betreftalgemeenverbindendvoorschrift\"><bdi class=\"secno\">3.23.1.10.10 </bdi>Relatiesoort details  <span class=\"formerLink\">BEVINDING</span> betreft algemeen verbindend voorschrift</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(11) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_CONTROLE_Controleidentificatie\"><bdi class=\"secno\">3.23.1.11.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">CONTROLE</span> Controle-identificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(11) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_CONTROLE_Controledatum\"><bdi class=\"secno\">3.23.1.11.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">CONTROLE</span> Controledatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(11) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_CONTROLE_Controletype\"><bdi class=\"secno\">3.23.1.11.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">CONTROLE</span> Controletype</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(11) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_CONTROLE_navontvangenhandhavingsverzoek\"><bdi class=\"secno\">3.23.1.11.4 </bdi>Relatiesoort details  <span class=\"formerLink\">CONTROLE</span> n.a.v. ontvangen handhavingsverzoek</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(11) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_CONTROLE_naaraanleidingvan\"><bdi class=\"secno\">3.23.1.11.5 </bdi>Relatiesoort details  <span class=\"formerLink\">CONTROLE</span> naar aanleiding van</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(11) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_CONTROLE_naaraanleidingvanovertreding\"><bdi class=\"secno\">3.23.1.11.6 </bdi>Relatiesoort details  <span class=\"formerLink\">CONTROLE</span> naar aanleiding van overtreding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(11) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_CONTROLE_navontvangenactiviteitinformatie\"><bdi class=\"secno\">3.23.1.11.7 </bdi>Relatiesoort details  <span class=\"formerLink\">CONTROLE</span> n.a.v. ontvangen activiteitinformatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(11) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_CONTROLE_vanactiviteituitvoering\"><bdi class=\"secno\">3.23.1.11.8 </bdi>Relatiesoort details  <span class=\"formerLink\">CONTROLE</span> van activiteituitvoering</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(11) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_CONTROLE_navontvangen\"><bdi class=\"secno\">3.23.1.11.9 </bdi>Relatiesoort details  <span class=\"formerLink\">CONTROLE</span> n.a.v. ontvangen</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(11) > .toc > .tocline:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_CONTROLE_wordtuitgevoerddoor\"><bdi class=\"secno\">3.23.1.11.10 </bdi>Relatiesoort details  <span class=\"formerLink\">CONTROLE</span> wordt uitgevoerd door</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(11) > .toc > .tocline:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_CONTROLE_vanvthobject\"><bdi class=\"secno\">3.23.1.11.11 </bdi>Relatiesoort details  <span class=\"formerLink\">CONTROLE</span> van vth-object</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(13) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_HANDHAVINGSMAATREGEL_Datumafronding\"><bdi class=\"secno\">3.23.1.13.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">HANDHAVINGSMAATREGEL</span> Datum afronding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(13) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_HANDHAVINGSMAATREGEL_Datumopleggenmaatregel\"><bdi class=\"secno\">3.23.1.13.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">HANDHAVINGSMAATREGEL</span> Datum opleggen maatregel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(13) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_HANDHAVINGSMAATREGEL_Handhavingsinstrument\"><bdi class=\"secno\">3.23.1.13.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">HANDHAVINGSMAATREGEL</span> Handhavingsinstrument</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(13) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_HANDHAVINGSMAATREGEL_Hhmaatregelidentificatie\"><bdi class=\"secno\">3.23.1.13.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">HANDHAVINGSMAATREGEL</span> Hh-maatregel-identificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(13) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_HANDHAVINGSMAATREGEL_StatusHhmaatregel\"><bdi class=\"secno\">3.23.1.13.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">HANDHAVINGSMAATREGEL</span> Status Hh-maatregel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(13) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_HANDHAVINGSMAATREGEL_wordtgenomenterbestrijdingvan\"><bdi class=\"secno\">3.23.1.13.6 </bdi>Relatiesoort details  <span class=\"formerLink\">HANDHAVINGSMAATREGEL</span> wordt genomen ter bestrijding van</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(13) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_HANDHAVINGSMAATREGEL_isopgelegddoor\"><bdi class=\"secno\">3.23.1.13.7 </bdi>Relatiesoort details  <span class=\"formerLink\">HANDHAVINGSMAATREGEL</span> is opgelegd door</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(14) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_HANDHAVINGSVERZOEK_Hhverzoekidentificatie\"><bdi class=\"secno\">3.23.1.14.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">HANDHAVINGSVERZOEK</span> Hh-verzoek-identificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(14) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_HANDHAVINGSVERZOEK_Omschrijving\"><bdi class=\"secno\">3.23.1.14.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">HANDHAVINGSVERZOEK</span> Omschrijving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(14) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_HANDHAVINGSVERZOEK_Ontvangstdatum\"><bdi class=\"secno\">3.23.1.14.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">HANDHAVINGSVERZOEK</span> Ontvangstdatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(14) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_HANDHAVINGSVERZOEK_betreftmogelijkeovertredingop\"><bdi class=\"secno\">3.23.1.14.4 </bdi>Relatiesoort details  <span class=\"formerLink\">HANDHAVINGSVERZOEK</span> betreft mogelijke overtreding op</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(14) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_HANDHAVINGSVERZOEK_betreftvermoedelijkeovertredingbegaandoor\"><bdi class=\"secno\">3.23.1.14.5 </bdi>Relatiesoort details  <span class=\"formerLink\">HANDHAVINGSVERZOEK</span> betreft vermoedelijke overtreding begaan door</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(15) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INCIDENT_Incidentidentificatie\"><bdi class=\"secno\">3.23.1.15.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">INCIDENT</span> Incident-identificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(15) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INCIDENT_Incidenteffect\"><bdi class=\"secno\">3.23.1.15.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">INCIDENT</span> Incidenteffect</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(15) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INCIDENT_Incidenttijdstip\"><bdi class=\"secno\">3.23.1.15.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">INCIDENT</span> Incidenttijdstip</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(15) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INCIDENT_Indicatieveroorzaker\"><bdi class=\"secno\">3.23.1.15.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">INCIDENT</span> Indicatie veroorzaker</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(15) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_INCIDENT_isaanleidingtot\"><bdi class=\"secno\">3.23.1.15.5 </bdi>Relatiesoort details  <span class=\"formerLink\">INCIDENT</span> is aanleiding tot</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(15) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_INCIDENT_doetzichvoorop\"><bdi class=\"secno\">3.23.1.15.6 </bdi>Relatiesoort details  <span class=\"formerLink\">INCIDENT</span> doet zich voor op</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(15) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_INCIDENT_isveroorzaaktbij\"><bdi class=\"secno\">3.23.1.15.7 </bdi>Relatiesoort details  <span class=\"formerLink\">INCIDENT</span> is veroorzaakt bij</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(15) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_INCIDENT_isveroorzaaktdoor\"><bdi class=\"secno\">3.23.1.15.8 </bdi>Relatiesoort details  <span class=\"formerLink\">INCIDENT</span> is veroorzaakt door</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(16) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INCIDENTSIGNAAL_Incidentsignaalidentificatie\"><bdi class=\"secno\">3.23.1.16.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">INCIDENTSIGNAAL</span> Incidentsignaal-identificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(16) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INCIDENTSIGNAAL_Signaalcategorie\"><bdi class=\"secno\">3.23.1.16.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">INCIDENTSIGNAAL</span> Signaalcategorie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(16) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INCIDENTSIGNAAL_Signaallocatie\"><bdi class=\"secno\">3.23.1.16.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">INCIDENTSIGNAAL</span> Signaallocatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(16) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INCIDENTSIGNAAL_Signaaltijdstip\"><bdi class=\"secno\">3.23.1.16.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">INCIDENTSIGNAAL</span> Signaaltijdstip</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(18) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INFORMATIEOBJECT_Bronorganisatie\"><bdi class=\"secno\">3.23.1.18.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">INFORMATIEOBJECT</span> Bronorganisatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(18) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INFORMATIEOBJECT_Creatiedatum\"><bdi class=\"secno\">3.23.1.18.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">INFORMATIEOBJECT</span> Creatiedatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(18) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INFORMATIEOBJECT_Informatieobjectidentificatie\"><bdi class=\"secno\">3.23.1.18.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">INFORMATIEOBJECT</span> Informatieobjectidentificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(18) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INFORMATIEOBJECT_Informatieobjectlink\"><bdi class=\"secno\">3.23.1.18.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">INFORMATIEOBJECT</span> Informatieobjectlink</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(18) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INFORMATIEOBJECT_Informatieobjecttypeomschrijving\"><bdi class=\"secno\">3.23.1.18.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">INFORMATIEOBJECT</span> Informatieobjecttype-omschrijving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(18) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INFORMATIEOBJECT_Status\"><bdi class=\"secno\">3.23.1.18.6 </bdi>Attribuutsoort details  <span class=\"formerLink\">INFORMATIEOBJECT</span> Status</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(18) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INFORMATIEOBJECT_Titel\"><bdi class=\"secno\">3.23.1.18.7 </bdi>Attribuutsoort details  <span class=\"formerLink\">INFORMATIEOBJECT</span> Titel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(18) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_INFORMATIEOBJECT_Vertrouwelijkheidaanduiding\"><bdi class=\"secno\">3.23.1.18.8 </bdi>Attribuutsoort details  <span class=\"formerLink\">INFORMATIEOBJECT</span> Vertrouwelijkheidaanduiding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(18) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_INFORMATIEOBJECT_lichtbevindingtoe\"><bdi class=\"secno\">3.23.1.18.9 </bdi>Relatiesoort details  <span class=\"formerLink\">INFORMATIEOBJECT</span> licht bevinding toe</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(18) > .toc > .tocline:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_INFORMATIEOBJECT_bevat\"><bdi class=\"secno\">3.23.1.18.10 </bdi>Relatiesoort details  <span class=\"formerLink\">INFORMATIEOBJECT</span> bevat</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(18) > .toc > .tocline:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_INFORMATIEOBJECT_beschrijft\"><bdi class=\"secno\">3.23.1.18.11 </bdi>Relatiesoort details  <span class=\"formerLink\">INFORMATIEOBJECT</span> beschrijft</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(18) > .toc > .tocline:nth-child(12) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_INFORMATIEOBJECT_isbijlagebij\"><bdi class=\"secno\">3.23.1.18.12 </bdi>Relatiesoort details  <span class=\"formerLink\">INFORMATIEOBJECT</span> is bijlage bij</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(18) > .toc > .tocline:nth-child(13) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_INFORMATIEOBJECT_lichtcontroletoe\"><bdi class=\"secno\">3.23.1.18.13 </bdi>Relatiesoort details  <span class=\"formerLink\">INFORMATIEOBJECT</span> licht controle toe</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(20) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_NATUURLIJKPERSOON_Burgerservicenummer\"><bdi class=\"secno\">3.23.1.20.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">NATUURLIJK PERSOON</span> Burgerservicenummer</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(20) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_NATUURLIJKPERSOON_Geslachtsaanduiding\"><bdi class=\"secno\">3.23.1.20.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">NATUURLIJK PERSOON</span> Geslachtsaanduiding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(20) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_NATUURLIJKPERSOON_Naam\"><bdi class=\"secno\">3.23.1.20.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">NATUURLIJK PERSOON</span> Naam</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(20) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_NATUURLIJKPERSOON_Overlijdendatum\"><bdi class=\"secno\">3.23.1.20.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">NATUURLIJK PERSOON</span> Overlijdendatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(21) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_NIETNATUURLIJKPERSOON_Datumaanvang\"><bdi class=\"secno\">3.23.1.21.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">NIET-NATUURLIJK PERSOON</span> Datum aanvang</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(21) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_NIETNATUURLIJKPERSOON_Datumbeeindiging\"><bdi class=\"secno\">3.23.1.21.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">NIET-NATUURLIJK PERSOON</span> Datum beeindiging</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(21) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_NIETNATUURLIJKPERSOON_RSIN\"><bdi class=\"secno\">3.23.1.21.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">NIET-NATUURLIJK PERSOON</span> RSIN</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(21) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_NIETNATUURLIJKPERSOON_Statutairenaam\"><bdi class=\"secno\">3.23.1.21.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">NIET-NATUURLIJK PERSOON</span> Statutaire naam</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(21) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_NIETNATUURLIJKPERSOON_Verkortenaam\"><bdi class=\"secno\">3.23.1.21.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">NIET-NATUURLIJK PERSOON</span> Verkorte naam</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(22) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_OVERTREDING_Aardovertreding\"><bdi class=\"secno\">3.23.1.22.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">OVERTREDING</span> Aard overtreding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(22) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_OVERTREDING_Handhavingsstrategie\"><bdi class=\"secno\">3.23.1.22.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">OVERTREDING</span> Handhavingsstrategie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(22) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_OVERTREDING_Hersteldatum\"><bdi class=\"secno\">3.23.1.22.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">OVERTREDING</span> Hersteldatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(22) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_OVERTREDING_Indicatiehandhaving\"><bdi class=\"secno\">3.23.1.22.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">OVERTREDING</span> Indicatie handhaving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(22) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_OVERTREDING_Overtredingidentificatie\"><bdi class=\"secno\">3.23.1.22.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">OVERTREDING</span> Overtreding-identificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(22) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_OVERTREDING_Overtredingsdatum\"><bdi class=\"secno\">3.23.1.22.6 </bdi>Attribuutsoort details  <span class=\"formerLink\">OVERTREDING</span> Overtredingsdatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(22) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_OVERTREDING_Redengeenhandhaving\"><bdi class=\"secno\">3.23.1.22.7 </bdi>Attribuutsoort details  <span class=\"formerLink\">OVERTREDING</span> Reden geen handhaving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(22) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_OVERTREDING_isgeconstateerdnav\"><bdi class=\"secno\">3.23.1.22.8 </bdi>Relatiesoort details  <span class=\"formerLink\">OVERTREDING</span> is geconstateerd n.a.v.</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(22) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_OVERTREDING_betreftspecifiekvoorschrift\"><bdi class=\"secno\">3.23.1.22.9 </bdi>Relatiesoort details  <span class=\"formerLink\">OVERTREDING</span> betreft specifiek voorschrift</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(22) > .toc > .tocline:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_OVERTREDING_betreftactiviteituitvoering\"><bdi class=\"secno\">3.23.1.22.10 </bdi>Relatiesoort details  <span class=\"formerLink\">OVERTREDING</span> betreft activiteituitvoering</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(22) > .toc > .tocline:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_OVERTREDING_isbegaandoor\"><bdi class=\"secno\">3.23.1.22.11 </bdi>Relatiesoort details  <span class=\"formerLink\">OVERTREDING</span> is begaan door</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(22) > .toc > .tocline:nth-child(12) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_OVERTREDING_betreftalgemeenverbindendvoorschrift\"><bdi class=\"secno\">3.23.1.22.12 </bdi>Relatiesoort details  <span class=\"formerLink\">OVERTREDING</span> betreft algemeen verbindend voorschrift</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(22) > .toc > .tocline:nth-child(13) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_OVERTREDING_betreft\"><bdi class=\"secno\">3.23.1.22.13 </bdi>Relatiesoort details  <span class=\"formerLink\">OVERTREDING</span> betreft</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(23) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_OVERWEGING_Begindatumgeldigheid\"><bdi class=\"secno\">3.23.1.23.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">OVERWEGING</span> Begindatum geldigheid</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(23) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_OVERWEGING_Einddatumgeldigheid\"><bdi class=\"secno\">3.23.1.23.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">OVERWEGING</span> Einddatum geldigheid</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(23) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_OVERWEGING_Omschrijving\"><bdi class=\"secno\">3.23.1.23.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">OVERWEGING</span> Omschrijving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(1) > .toc > .tocline:nth-child(23) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_OVERWEGING_Overwegingidentificatie\"><bdi class=\"secno\">3.23.1.23.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">OVERWEGING</span> Overwegingidentificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(23) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_OVERWEGING_Titel\"><bdi class=\"secno\">3.23.1.23.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">OVERWEGING</span> Titel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(23) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_OVERWEGING_isverantwoordingvan\"><bdi class=\"secno\">3.23.1.23.6 </bdi>Relatiesoort details  <span class=\"formerLink\">OVERWEGING</span> is verantwoording van</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(23) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_OVERWEGING_motiveert\"><bdi class=\"secno\">3.23.1.23.7 </bdi>Relatiesoort details  <span class=\"formerLink\">OVERWEGING</span> motiveert</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(25) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_SPECIFIEKVOORSCHRIFT_Begindatumgeldigheid\"><bdi class=\"secno\">3.23.1.25.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">SPECIFIEK VOORSCHRIFT</span> Begindatum geldigheid</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(25) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_SPECIFIEKVOORSCHRIFT_Einddatumgeldigheid\"><bdi class=\"secno\">3.23.1.25.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">SPECIFIEK VOORSCHRIFT</span> Einddatum geldigheid</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(25) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_SPECIFIEKVOORSCHRIFT_Omschrijving\"><bdi class=\"secno\">3.23.1.25.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">SPECIFIEK VOORSCHRIFT</span> Omschrijving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(25) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_SPECIFIEKVOORSCHRIFT_Titel\"><bdi class=\"secno\">3.23.1.25.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">SPECIFIEK VOORSCHRIFT</span> Titel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(25) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_SPECIFIEKVOORSCHRIFT_Voorschriftidentificatie\"><bdi class=\"secno\">3.23.1.25.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">SPECIFIEK VOORSCHRIFT</span> Voorschriftidentificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(25) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_SPECIFIEKVOORSCHRIFT_Voorschrifttype\"><bdi class=\"secno\">3.23.1.25.6 </bdi>Attribuutsoort details  <span class=\"formerLink\">SPECIFIEK VOORSCHRIFT</span> Voorschrifttype</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(25) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_SPECIFIEKVOORSCHRIFT_isvoorgeschrevenin\"><bdi class=\"secno\">3.23.1.25.7 </bdi>Relatiesoort details  <span class=\"formerLink\">SPECIFIEK VOORSCHRIFT</span> is voorgeschreven in</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(25) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_SPECIFIEKVOORSCHRIFT_geldtvoorvthobject\"><bdi class=\"secno\">3.23.1.25.8 </bdi>Relatiesoort details  <span class=\"formerLink\">SPECIFIEK VOORSCHRIFT</span> geldt voor vth-object</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(25) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_SPECIFIEKVOORSCHRIFT_geldtvooractiviteituntvoering\"><bdi class=\"secno\">3.23.1.25.9 </bdi>Relatiesoort details  <span class=\"formerLink\">SPECIFIEK VOORSCHRIFT</span> geldt voor activiteituntvoering</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(26) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_TOESTEMMING_Dictum\"><bdi class=\"secno\">3.23.1.26.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">TOESTEMMING</span> Dictum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(26) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_TOESTEMMING_Inwerkingtredingsdatum\"><bdi class=\"secno\">3.23.1.26.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">TOESTEMMING</span> Inwerkingtredingsdatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(26) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_TOESTEMMING_Kenmerk\"><bdi class=\"secno\">3.23.1.26.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">TOESTEMMING</span> Kenmerk</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(26) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_TOESTEMMING_Omschrijving\"><bdi class=\"secno\">3.23.1.26.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">TOESTEMMING</span> Omschrijving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(26) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_TOESTEMMING_Onderwerp\"><bdi class=\"secno\">3.23.1.26.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">TOESTEMMING</span> Onderwerp</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(26) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_TOESTEMMING_Toestemmingidentificatie\"><bdi class=\"secno\">3.23.1.26.6 </bdi>Attribuutsoort details  <span class=\"formerLink\">TOESTEMMING</span> Toestemming-identificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(26) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_TOESTEMMING_Toestemmingsoort\"><bdi class=\"secno\">3.23.1.26.7 </bdi>Attribuutsoort details  <span class=\"formerLink\">TOESTEMMING</span> Toestemmingsoort</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(26) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_TOESTEMMING_Toestemmingtype\"><bdi class=\"secno\">3.23.1.26.8 </bdi>Attribuutsoort details  <span class=\"formerLink\">TOESTEMMING</span> Toestemmingtype</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(26) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_TOESTEMMING_Vervaldatum\"><bdi class=\"secno\">3.23.1.26.9 </bdi>Attribuutsoort details  <span class=\"formerLink\">TOESTEMMING</span> Vervaldatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(26) > .toc > .tocline:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_TOESTEMMING_legitimeert\"><bdi class=\"secno\">3.23.1.26.10 </bdi>Relatiesoort details  <span class=\"formerLink\">TOESTEMMING</span> legitimeert</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(26) > .toc > .tocline:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_TOESTEMMING_isuitkomstvanbehandelingvan\"><bdi class=\"secno\">3.23.1.26.11 </bdi>Relatiesoort details  <span class=\"formerLink\">TOESTEMMING</span> is uitkomst van behandeling van</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(26) > .toc > .tocline:nth-child(12) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_TOESTEMMING_isverleendaan\"><bdi class=\"secno\">3.23.1.26.12 </bdi>Relatiesoort details  <span class=\"formerLink\">TOESTEMMING</span> is verleend aan</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(27) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_TOESTEMMINGSAANVRAAG_betreftvoorafgaande\"><bdi class=\"secno\">3.23.1.27.1 </bdi>Relatiesoort details  <span class=\"formerLink\">TOESTEMMINGSAANVRAAG</span> betreft voorafgaande</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(27) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_TOESTEMMINGSAANVRAAG_isingedienddmv\"><bdi class=\"secno\">3.23.1.27.2 </bdi>Relatiesoort details  <span class=\"formerLink\">TOESTEMMINGSAANVRAAG</span> is ingediend d.m.v.</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(29) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VERZOEK_Doel\"><bdi class=\"secno\">3.23.1.29.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">VERZOEK</span> Doel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(29) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VERZOEK_Indiendatum\"><bdi class=\"secno\">3.23.1.29.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">VERZOEK</span> Indiendatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(29) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VERZOEK_Plichttype\"><bdi class=\"secno\">3.23.1.29.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">VERZOEK</span> Plichttype</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(29) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VERZOEK_Typeverzoek\"><bdi class=\"secno\">3.23.1.29.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">VERZOEK</span> Type verzoek</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(29) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VERZOEK_Verzoeknummer\"><bdi class=\"secno\">3.23.1.29.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">VERZOEK</span> Verzoeknummer</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(29) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VERZOEK_Verzoekvolgnummer\"><bdi class=\"secno\">3.23.1.29.6 </bdi>Attribuutsoort details  <span class=\"formerLink\">VERZOEK</span> Verzoekvolgnummer</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(29) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_VERZOEK_heeftalsverantwoordelijkevoorbehandeling\"><bdi class=\"secno\">3.23.1.29.7 </bdi>Relatiesoort details  <span class=\"formerLink\">VERZOEK</span> heeft als verantwoordelijke voor behandeling</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(29) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_VERZOEK_betreft\"><bdi class=\"secno\">3.23.1.29.8 </bdi>Relatiesoort details  <span class=\"formerLink\">VERZOEK</span> betreft</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(29) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_VERZOEK_betreftuitvoeringopofin\"><bdi class=\"secno\">3.23.1.29.9 </bdi>Relatiesoort details  <span class=\"formerLink\">VERZOEK</span> betreft uitvoering op of in</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(29) > .toc > .tocline:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_VERZOEK_betreftuitvoeringvantypevan\"><bdi class=\"secno\">3.23.1.29.10 </bdi>Relatiesoort details  <span class=\"formerLink\">VERZOEK</span> betreft uitvoering van type van</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(29) > .toc > .tocline:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_VERZOEK_betreftactiviteitenbinnen\"><bdi class=\"secno\">3.23.1.29.11 </bdi>Relatiesoort details  <span class=\"formerLink\">VERZOEK</span> betreft activiteiten binnen</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(29) > .toc > .tocline:nth-child(12) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_VERZOEK_isuitbesteedvoorbehandelingaan\"><bdi class=\"secno\">3.23.1.29.12 </bdi>Relatiesoort details  <span class=\"formerLink\">VERZOEK</span> is uitbesteed voor behandeling aan</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(29) > .toc > .tocline:nth-child(13) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_VERZOEK_heeftalsverantwoordelijkevoorindienen\"><bdi class=\"secno\">3.23.1.29.13 </bdi>Relatiesoort details  <span class=\"formerLink\">VERZOEK</span> heeft als verantwoordelijke voor indienen</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(30) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VESTIGING_Datumaanvang\"><bdi class=\"secno\">3.23.1.30.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">VESTIGING</span> Datum aanvang</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(30) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VESTIGING_Datumbeeindiging\"><bdi class=\"secno\">3.23.1.30.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">VESTIGING</span> Datum beeindiging</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(30) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VESTIGING_Handelsnaam\"><bdi class=\"secno\">3.23.1.30.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">VESTIGING</span> Handelsnaam</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(30) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VESTIGING_Indicatiehoofdvestiging\"><bdi class=\"secno\">3.23.1.30.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">VESTIGING</span> Indicatie hoofdvestiging</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(30) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VESTIGING_KvKnummer\"><bdi class=\"secno\">3.23.1.30.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">VESTIGING</span> Kv­K-nummer</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(30) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VESTIGING_SBIactiviteit\"><bdi class=\"secno\">3.23.1.30.6 </bdi>Attribuutsoort details  <span class=\"formerLink\">VESTIGING</span> SBI-activiteit</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(30) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VESTIGING_Toevoegingadres\"><bdi class=\"secno\">3.23.1.30.7 </bdi>Attribuutsoort details  <span class=\"formerLink\">VESTIGING</span> Toevoeging adres</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(30) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VESTIGING_Verkortenaam\"><bdi class=\"secno\">3.23.1.30.8 </bdi>Attribuutsoort details  <span class=\"formerLink\">VESTIGING</span> Verkorte naam</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(30) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VESTIGING_Vestigingsnummer\"><bdi class=\"secno\">3.23.1.30.9 </bdi>Attribuutsoort details  <span class=\"formerLink\">VESTIGING</span> Vestigingsnummer</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(30) > .toc > .tocline:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_VESTIGING_heeftalseigenaarnnp\"><bdi class=\"secno\">3.23.1.30.10 </bdi>Relatiesoort details  <span class=\"formerLink\">VESTIGING</span> heeft als eigenaar nnp</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(30) > .toc > .tocline:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_VESTIGING_heeftalseigenaarnp\"><bdi class=\"secno\">3.23.1.30.11 </bdi>Relatiesoort details  <span class=\"formerLink\">VESTIGING</span> heeft als eigenaar np</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(31) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VTHINSTANTIE_OIN\"><bdi class=\"secno\">3.23.1.31.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">VTH-INSTANTIE</span> OIN</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(31) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_VTHINSTANTIE_isrolvan\"><bdi class=\"secno\">3.23.1.31.2 </bdi>Relatiesoort details  <span class=\"formerLink\">VTH-INSTANTIE</span> is rol van</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(32) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VTHOBJECT_Beeindigingsdatum\"><bdi class=\"secno\">3.23.1.32.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">VTH-OBJECT</span> Beeindigingsdatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(32) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VTHOBJECT_Locatieomschrijving\"><bdi class=\"secno\">3.23.1.32.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">VTH-OBJECT</span> Locatie-omschrijving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(32) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VTHOBJECT_Ontstaansdatum\"><bdi class=\"secno\">3.23.1.32.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">VTH-OBJECT</span> Ontstaansdatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(32) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VTHOBJECT_TypeVTHobject\"><bdi class=\"secno\">3.23.1.32.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">VTH-OBJECT</span> Type VTH-object</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(32) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VTHOBJECT_VTHobjectidentificatie\"><bdi class=\"secno\">3.23.1.32.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">VTH-OBJECT</span> VTH-objectidentificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(32) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_VTHOBJECT_VTHobjectnaam\"><bdi class=\"secno\">3.23.1.32.6 </bdi>Attribuutsoort details  <span class=\"formerLink\">VTH-OBJECT</span> VTH-objectnaam</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(32) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_VTHOBJECT_maaktdeeluitvan\"><bdi class=\"secno\">3.23.1.32.7 </bdi>Relatiesoort details  <span class=\"formerLink\">VTH-OBJECT</span> maakt deel uit van</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(32) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_VTHOBJECT_heeftalsverantwoordelijke\"><bdi class=\"secno\">3.23.1.32.8 </bdi>Relatiesoort details  <span class=\"formerLink\">VTH-OBJECT</span> heeft als verantwoordelijke</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(32) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_VTHOBJECT_heeftalslocatie\"><bdi class=\"secno\">3.23.1.32.9 </bdi>Relatiesoort details  <span class=\"formerLink\">VTH-OBJECT</span> heeft als locatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ZAAK_Bronorganisatie\"><bdi class=\"secno\">3.23.1.33.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">ZAAK</span> Bronorganisatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ZAAK_Einddatum\"><bdi class=\"secno\">3.23.1.33.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">ZAAK</span> Einddatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ZAAK_Einddatumgepland\"><bdi class=\"secno\">3.23.1.33.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">ZAAK</span> Einddatum gepland</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ZAAK_Resultaatomschrijving\"><bdi class=\"secno\">3.23.1.33.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">ZAAK</span> Resultaatomschrijving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ZAAK_Startdatum\"><bdi class=\"secno\">3.23.1.33.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">ZAAK</span> Startdatum</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ZAAK_Zaakidentificatie\"><bdi class=\"secno\">3.23.1.33.6 </bdi>Attribuutsoort details  <span class=\"formerLink\">ZAAK</span> Zaakidentificatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ZAAK_Zaakomschrijving\"><bdi class=\"secno\">3.23.1.33.7 </bdi>Attribuutsoort details  <span class=\"formerLink\">ZAAK</span> Zaakomschrijving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ZAAK_Zaakstatus\"><bdi class=\"secno\">3.23.1.33.8 </bdi>Attribuutsoort details  <span class=\"formerLink\">ZAAK</span> Zaakstatus</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_ZAAK_Zaaktypeomschrijving\"><bdi class=\"secno\">3.23.1.33.9 </bdi>Attribuutsoort details  <span class=\"formerLink\">ZAAK</span> Zaaktype-omschrijving</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ZAAK_betreftbehandelingvanverzoek\"><bdi class=\"secno\">3.23.1.33.10 </bdi>Relatiesoort details  <span class=\"formerLink\">ZAAK</span> betreft behandeling van verzoek</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ZAAK_betreftuitvoeringvanhandhavingsmaatregel\"><bdi class=\"secno\">3.23.1.33.11 </bdi>Relatiesoort details  <span class=\"formerLink\">ZAAK</span> betreft uitvoering van handhavingsmaatregel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(12) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ZAAK_kent\"><bdi class=\"secno\">3.23.1.33.12 </bdi>Relatiesoort details  <span class=\"formerLink\">ZAAK</span> kent</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(13) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ZAAK_betreftbehandelingvanhandhavingsverzoek\"><bdi class=\"secno\">3.23.1.33.13 </bdi>Relatiesoort details  <span class=\"formerLink\">ZAAK</span> betreft behandeling van handhavingsverzoek</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(14) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ZAAK_betreftbehandelingvan\"><bdi class=\"secno\">3.23.1.33.14 </bdi>Relatiesoort details  <span class=\"formerLink\">ZAAK</span> betreft behandeling van</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(15) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ZAAK_heeftalsuitkomst\"><bdi class=\"secno\">3.23.1.33.15 </bdi>Relatiesoort details  <span class=\"formerLink\">ZAAK</span> heeft als uitkomst</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(16) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ZAAK_betreftuitvoeringvancontrole\"><bdi class=\"secno\">3.23.1.33.16 </bdi>Relatiesoort details  <span class=\"formerLink\">ZAAK</span> betreft uitvoering van controle</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(33) > .toc > .tocline:nth-child(17) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_association_Model_ZAAK_wordtbehandelddoor\"><bdi class=\"secno\">3.23.1.33.17 </bdi>Relatiesoort details  <span class=\"formerLink\">ZAAK</span> wordt behandeld door</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adresbuitenland_Adresbuitenland1\"><bdi class=\"secno\">3.23.2.1.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres buitenland</span> Adres buitenland 1</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adresbuitenland_Adresbuitenland2\"><bdi class=\"secno\">3.23.2.1.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres buitenland</span> Adres buitenland 2</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adresbuitenland_Adresbuitenland3\"><bdi class=\"secno\">3.23.2.1.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres buitenland</span> Adres buitenland 3</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adresbuitenland_Land\"><bdi class=\"secno\">3.23.2.1.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres buitenland</span> Land</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(2) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Bevindingoordeel_Gedrag\"><bdi class=\"secno\">3.23.2.2.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">Bevindingoordeel</span> Gedrag</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(2) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Bevindingoordeel_Gevolg\"><bdi class=\"secno\">3.23.2.2.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">Bevindingoordeel</span> Gevolg</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(3) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Interventiepositionering_Gedrag\"><bdi class=\"secno\">3.23.2.3.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">Interventiepositionering</span> Gedrag</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(3) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Interventiepositionering_Gevolg\"><bdi class=\"secno\">3.23.2.3.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">Interventiepositionering</span> Gevolg</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(4) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Postadresbinnenland_Naamwoonplaats\"><bdi class=\"secno\">3.23.2.4.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">Postadres binnenland</span> Naam woonplaats</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(4) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Postadresbinnenland_Postadrestype\"><bdi class=\"secno\">3.23.2.4.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">Postadres binnenland</span> Postadrestype</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(4) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Postadresbinnenland_Postbusofantwoordnummer\"><bdi class=\"secno\">3.23.2.4.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">Postadres binnenland</span> Postbus- of antwoordnummer</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(4) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Postadresbinnenland_Postcode\"><bdi class=\"secno\">3.23.2.4.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">Postadres binnenland</span> Postcode</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Kadastraleaanduiding_Appartementsrechtvolgnummer\"><bdi class=\"secno\">3.23.2.5.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">Kadastrale aanduiding</span> Appartementsrechtvolgnummer</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(5) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Kadastraleaanduiding_Kadastralegemeente\"><bdi class=\"secno\">3.23.2.5.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">Kadastrale aanduiding</span> Kadastrale gemeente</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(5) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Kadastraleaanduiding_Perceelnummer\"><bdi class=\"secno\">3.23.2.5.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">Kadastrale aanduiding</span> Perceelnummer</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(5) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Kadastraleaanduiding_Sectie\"><bdi class=\"secno\">3.23.2.5.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">Kadastrale aanduiding</span> Sectie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adresbinnenland_BAGnummeraanduidingId\"><bdi class=\"secno\">3.23.2.6.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres binnenland</span> BAG-nummeraanduiding-Id</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adresbinnenland_Huisletter\"><bdi class=\"secno\">3.23.2.6.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres binnenland</span> Huisletter</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adresbinnenland_Huisnummer\"><bdi class=\"secno\">3.23.2.6.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres binnenland</span> Huisnummer</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adresbinnenland_Huisnummertoevoeging\"><bdi class=\"secno\">3.23.2.6.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres binnenland</span> Huisnummertoevoeging</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adresbinnenland_Naamopenbareruimte\"><bdi class=\"secno\">3.23.2.6.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres binnenland</span> Naam openbare ruimte</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adresbinnenland_Naamwoonplaats\"><bdi class=\"secno\">3.23.2.6.6 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres binnenland</span> Naam woonplaats</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(6) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adresbinnenland_Postcode\"><bdi class=\"secno\">3.23.2.6.7 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres binnenland</span> Postcode</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(7) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adres_Huisletter\"><bdi class=\"secno\">3.23.2.7.1 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres</span> Huisletter</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(7) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adres_Huisnummer\"><bdi class=\"secno\">3.23.2.7.2 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres</span> Huisnummer</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(7) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adres_Huisnummertoevoeging\"><bdi class=\"secno\">3.23.2.7.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres</span> Huisnummertoevoeging</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(7) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adres_Naamopenbareruimte\"><bdi class=\"secno\">3.23.2.7.4 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres</span> Naam openbare ruimte</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(7) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adres_Naamwoonplaats\"><bdi class=\"secno\">3.23.2.7.5 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres</span> Naam woonplaats</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(7) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_Adres_Postcode\"><bdi class=\"secno\">3.23.2.7.6 </bdi>Attribuutsoort details  <span class=\"formerLink\">Adres</span> Postcode</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(4) > .toc > .tocline > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_NEN3610ID_lokaalID\"><bdi class=\"secno\">3.23.4.1.1 </bdi>Data element  <span class=\"formerLink\">NEN3610ID</span> lokaal­ID</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(4) > .toc > .tocline > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_Model_NEN3610ID_namespace\"><bdi class=\"secno\">3.23.4.1.2 </bdi>Data element  <span class=\"formerLink\">NEN3610ID</span> namespace</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      }
+    ]
+  }
+]
