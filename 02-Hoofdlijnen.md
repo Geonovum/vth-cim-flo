@@ -4,22 +4,22 @@
 
 In dit en de volgende hoofdstukken beschrijven we het informatiemodel. Het gaat hier om een zgn. conceptueel informatiemodel (CIm), de modellering van de werkelijkheid binnen het beschouwde domein door middel van de structuur, semantiek en de eigenschappen van informatie over dingen in die werkelijkheid. Een conceptueel informatiemodel is onafhankelijk van het ontwerp van en de implementatie in systemen. Het geeft een zo getrouw mogelijke beschrijving van die werkelijkheid en is in natuurlijke taal geformuleerd (dit kan op gespannen voet staan voor modelelementen die overgenomen zijn uit andere informatiemodellen).
 
-Het bestaat uit objecttypen (zie Figuur 2; de rechthoeken in de views), eigenschappen daarvan (‘gegevens’; de attribuutsoorten) en relaties (relatiesoorten; de verbindingslijnen tussen de objecttypen in de diagrammen). Bij een attribuutsoort kan een waardelijst van toepassing zijn. Deze is gemodelleerd als zgn. referentielijst dan wel als enumeratie. Elke relatiesoort heeft een richting, aangegeven met een pijlpunt. De naam van de relatiesoort moet in die richting gelezen worden. Een gesloten pijlpunt geeft een zgn. specialisatie-relatie aan. Zie de toelichting bij het desbetreffende diagram wat dit betekent.
+Het bestaat uit objecttypen (zie Figuur 2; de rechthoeken in de views), eigenschappen daarvan ('gegevens'; de attribuutsoorten) en relaties (relatiesoorten; de verbindingslijnen tussen de objecttypen in de diagrammen). Bij een attribuutsoort kan een waardelijst van toepassing zijn. Deze is gemodelleerd als zgn. referentielijst dan wel als enumeratie. Elke relatiesoort heeft een richting, aangegeven met een pijlpunt. De naam van de relatiesoort moet in die richting gelezen worden. Een gesloten pijlpunt geeft een zgn. specialisatie-relatie aan. Zie de toelichting bij het desbetreffende diagram wat dit betekent.
 
 <figure id="ViewsMetKernObjecttypen">
-   <img src="media/image4.png" alt="">
+   <img src="media/image4.png" alt="sturctuurelementen van het informatiemodel">
    <figcaption>structuurelementen van het informatiemodel</figcaption>
 </figure>
 
-We lichten het informatiemodel toe aan de hand van zgn. views, een selectie van onderdelen van het informatiemodel voor een bepaald thema. Per view is het desbetreffende deel van het informatiemodel in twee diagrammen uitgewerkt. Het telkens eerste diagram bevat de objecttypen die tot de kern van die view behoren (in donkerder grijs) met alle daaraan gerelateerde andere objecttypen (in lichter grijs). Eventuele relaties tussen de laatstgenoemde objecttypen zijn niet weergegeven (zie daarvoor de view waarop het desbetreffende objecttype tot de kern behoort). Het telkens tweede diagram bevat de objecttypen die tot de kern van de view behoren, hun attribuutsoorten en hun relaties naar andere objecttypen (dus niet relaties vanuit andere objecttypen naar de ‘kern-objecttypen’). Op deze wijze zijn in een dergelijk diagram alle eigenschappen van ‘kern-objecttypen’ verbeeld. 
+We lichten het informatiemodel toe aan de hand van zgn. views, een selectie van onderdelen van het informatiemodel voor een bepaald thema. Per view is het desbetreffende deel van het informatiemodel in twee diagrammen uitgewerkt. Het telkens eerste diagram bevat de objecttypen die tot de kern van die view behoren (in donkerder grijs) met alle daaraan gerelateerde andere objecttypen (in lichter grijs). Eventuele relaties tussen de laatstgenoemde objecttypen zijn niet weergegeven (zie daarvoor de view waarop het desbetreffende objecttype tot de kern behoort). Het telkens tweede diagram bevat de objecttypen die tot de kern van de view behoren, hun attribuutsoorten en hun relaties naar andere objecttypen (dus niet relaties vanuit andere objecttypen naar de 'kern-objecttypen'). Op deze wijze zijn in een dergelijk diagram alle eigenschappen van 'kern-objecttypen' verbeeld. 
 
-Bijlage 1 bevat een overzicht van de views met hun ‘kern-objecttypen’. Daarin is snel te vinden in welke view een objecttype als ‘kern-objecttype’ is uitgewerkt.
+Bijlage 1 bevat een overzicht van de views met hun 'kern-objecttypen'. Daarin is snel te vinden in welke view een objecttype als 'kern-objecttype' is uitgewerkt.
 In de volgende paragraaf beschrijven we de structuur van het informatiemodel op hoofdlijnen, in hoofdstuk 3 in meer detail aan de hand van de views en diagrammen. In hoofdstuk 4 specificeren we de objecttypen, in hoofdstuk 5 de attribuut- en relatiesoorten en in hoofdstuk 6 de waardenlijsten.
 
 ## De hoofdlijnen {#12E3403A}
 
 <figure id="ViewsMetKernObjecttypen">
-   <img src="media/image5.png" alt="">
+   <img src="media/image5.png" alt="UML diagram met kernobjecten van CIm VTH Flo">
    <figcaption>CIm VTH FLo op hoofdlijnen</figcaption>
 </figure>
 
@@ -34,14 +34,14 @@ Processen voor bijvoorbeeld het verlenen van Toestemmingen of het uitvoeren van 
 In onderstaande figuur wordt gevisualiseerd in welke view de getoonde objecttypen te vinden zijn; de views zelf bevatten meer objecttypen.
 
 <figure id="ViewsMetKernObjecttypen">
-   <img src="media/image6.png" alt="">
+   <img src="media/image6.png" alt="UML diagram met kernobjecten van CIm VTH Flo met views">
    <figcaption>CIm VTH FLo op hoofdlijnen met views</figcaption>
 </figure>
 
 ## Informatiemodel in detail
 
 In dit hoofdstuk visualiseren we de structuur van het informatiemodel en lichten deze toe. We doen
-dat door middel van een aantal ‘views’ waarin we telkens een deel van het informatiemodel belichten.
+dat door middel van een aantal 'views' waarin we telkens een deel van het informatiemodel belichten.
 Per view twee diagrammen, zie par. 2.1. Om een goed beeld te krijgen van de samenhang en het
 geheel, overlappen de views. De specificaties van de in de views vermelde objecttypen en
 relatiesoorten vermelden we in de volgende hoofdstukken. De views zijn hieronder in alfabetische

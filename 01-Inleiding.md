@@ -12,7 +12,7 @@ Sinds de rapporten van de Algemene Rekenkamer en de commissie Van Aartsen hebben
 
 ## Doel
 
-Het voorliggende Conceptueel informatiemodel VTH Fysieke Leefomgeving (CIm VTH FLo) verschaft helderheid over de kerngegevens in het VTH-stelsel, hun structuur en semantiek. Het beoogt in de breedte eenheid en structuur te bieden op informatiekundig vlak in het VTH-stelsel over de fysieke leefomgeving. 
+Het voorliggende Conceptueel informatiemodel VTH Fysieke Leefomgeving (CIm VTH FLo) verschaft helderheid over de kerngegevens in het VTH-stelsel, hun structuur en semantiek. Het beoogt in de breedte eenheid en structuur te bieden op informatiekundig vlak in het VTH-stelsel over de fysieke leefomgeving.
 Het is één van de resultaten van het project ‘Eenheid van Taal’. Dat project beoogt een gezamenlijke basis voor gegevensuitwisseling te ontwikkelen door begrippen- en informatiemodellen te maken in samenwerking met de VTH-stelselpartners. Daarmee faciliteert dit project effectiever gegevensgebruik in het VTH-stelsel en het opbouwen van inzicht en overzicht (informatiepositie) in dat stelsel.
 
 Dit informatiemodel helpt bij:
@@ -42,7 +42,7 @@ Binnen het VTH-stelsel van de fysieke leefomgeving bestaan al verschillende info
 De ontwikkeling van dit informatiemodel is medio 2023 gestart binnen het programma IBP VTH, een interbestuurlijk programma waar alle stelselpartijen bij betrokken waren. Dit programma is in oktober 2024 opgevolgd door het programma “Digitalisering VTH”. Het programma valt onder de verantwoordelijkheid van het ministerie van Infrastructuur en Waterstaat. Het eerder genoemde project ‘Eenheid van Taal’ maakt deel uit van dit programma. 
 Deze versie van het informatiemodel wordt gepubliceerd en is bedoeld om in gebruik te nemen. Vaststelling van het informatiemodel vindt plaats langs de governance van het programma. 
 De 0.9.1-versie is breed gereviewd. In deze 1.0-versie zijn de opmerkingen verwerkt van onder meer  omgevingsdiensten, waterschappen, gemeenten, IPO, UvW, VNG, ILT, DSO, software leveranciers en beheerders van bestaande informatiestandaarden binnen de fysieke leefomgeving die raakvlakken hebben met VTH.
-Heeft u vragen en/of opmerkingen, bezoek dan de website <a href='https://digitaliseringvth.nl/' target='_blank'>DigitaliseringVTH.nl</a> en/of neem contact op via een mail aan <a href='mailto:PostbusDigitaliseringVTH@minienw.nl' target='_blank'>PostbusDigitaliseringVTH@minienw.nl</a>
+Heeft u vragen en/of opmerkingen, bezoek dan de website <a href='https://digitaliseringvth.nl/' target='_blank'>DigitaliseringVTH.nl</a> en/of neem contact op via een mail aan <a href='mailto:vth@geonovum.nl' target='_blank'>PostbusDigitaliseringVTH@minienw.nl</a>
 
 <b>Werkgroep</b>
 
@@ -74,6 +74,5 @@ Het gaan toepassen van dit informatiemodel in de dagelijkse praktijk behelst mee
 
 ## Leeswijzer
 
-Begin met het lezen van hoofdstuk 2, het informatiemodel op hoofdlijnen. Dit geeft zowel inzicht in de opbouw van dit document en daarmee de structuur waarin het informatiemodel is beschreven, als een globale indruk van de structuur en inhoud van het informatiemodel. 
-Lees in hoofdstuk 3 de views waarin u geïnteresseerd bent. Elke view geeft in detail inzicht in de structuur van het informatiemodel voor het desbetreffende thema.
-Lees voor meer informatie over een objecttype in een view de specificatie daarvan in hoofdstuk 4. En wilt u vervolgens meer lezen over een attribuutsoort of een relatiesoort, lees dan het betreffende deel van hoofdstuk 5 (in het bijzonder de toelichtingen) en indien van toepassing van hoofdstuk 6 en/of 7. De hoofdstukken 4 en verder lenen zich niet zo om sequentieel te lezen. De views in hoofdstuk 3 verschaffen de samenhang.
+Begin met het lezen van hoofdstuk 2, het informatiemodel op hoofdlijnen. Dit geeft zowel inzicht in de opbouw van dit document en daarmee de structuur waarin het informatiemodel is beschreven, als een globale indruk van de structuur en inhoud van het informatiemodel.
+Lees in de paragrafen 3.1 - 3.15  de views waarin u geïnteresseerd bent. Elke view geeft in detail inzicht in de structuur van het informatiemodel voor het desbetreffende thema. Wilt u vervolgens meer lezen over een attribuutsoort of een relatiesoort, klik dan op de betreffende klasse en u sprint automatisch naar de details van die klasse.
