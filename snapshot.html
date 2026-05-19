@@ -1381,7 +1381,7 @@ leefomgeving.">
     <h2>
       Geonovum Informatiemodel<br>
       Werkversie
-      <time class="dt-published" datetime="2026-05-18">18 mei 2026</time>
+      <time class="dt-published" datetime="2026-05-19">19 mei 2026</time>
     </h2>
     <dl>
       
@@ -1861,9 +1861,9 @@ volgorde opgenomen. Het betreffen:</p>
                            
                               <a class="link" href="#global_class_Model_BETROKKENE">BETROKKENE</a>
                            
-                           [ 0 .. 1 ]
+                           [ 0 .. * ]
                         </td><td>
-                           <p>De rechtspersoon die de activiteit uitvoert indien dat niet de verantwoordelijke voor de activiteituitvoering is. .</p>
+                           <p>De rechtspersoon die de activiteit uitvoert indien dat niet de verantwoordelijke voor de activiteituitvoering is.</p>
                         </td></tr><tr><td>
                            ACTIVITEITUITVOERING
                            [ 0 .. * ]
@@ -5572,13 +5572,13 @@ woonplaats.</p>
                               IBP VTH
                            </td></tr><tr><th scope="row">Definitie</th><td>
                               
-                                    <p>De rechtspersoon die de activiteit uitvoert indien dat niet de verantwoordelijke voor de activiteituitvoering is. .</p>
+                                    <p>De rechtspersoon die de activiteit uitvoert indien dat niet de verantwoordelijke voor de activiteituitvoering is.</p>
                                  
                            </td></tr><tr><th scope="row">Herkomst definitie</th><td>
                               IBP VTH
                            </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Gerelateerd objecttype</th><td>
                               <a class="link" href="#global_class_Model_BETROKKENE">BETROKKENE</a>
-                           </td></tr><tr><th scope="row">Indicatie materiële historie</th><td>Nee</td></tr><tr><th scope="row">Indicatie formele historie</th><td>Ja</td></tr><tr><th scope="row">Kardinaliteit</th><td>0 .. 1</td></tr><tr><th scope="row">Indicatie kardinaliteit bron</th><td>0 .. *</td></tr><tr><th scope="row">Indicatie authentiek</th><td>Landelijk kerngegeven</td></tr><tr><th scope="row">Toelichting</th><td>
+                           </td></tr><tr><th scope="row">Indicatie materiële historie</th><td>Nee</td></tr><tr><th scope="row">Indicatie formele historie</th><td>Ja</td></tr><tr><th scope="row">Kardinaliteit</th><td>0 .. *</td></tr><tr><th scope="row">Indicatie kardinaliteit bron</th><td>0 .. *</td></tr><tr><th scope="row">Indicatie authentiek</th><td>Landelijk kerngegeven</td></tr><tr><th scope="row">Toelichting</th><td>
                               
                                     <p>Het gaat hier om de rechtspersoon die de activiteit uitvoert, niet de feitelijke medewerker daarvan. Veelal zal dit een bedrijf (niet-natuurlijk persoon) of vestiging daarvan bettreffen maar ook een natuurlijk persoon kan handelen als rechtspersoon. Die rechtspersoon zal veelal degene zijn aan wie de vergunning verleend is of door wie de melding is gedaan (de verantwoordelijke voor de activiteituitvoering). Maar, dat hoeft niet. Bijvoorbeeld een verbouwing waarbij de eigenaar van het pand de vergunning heeft gekregen (de verantwoordelijke) en een aannemer de verbouwing uitvoert.  </p>
                                     <p>Niet in alle gevallen zal de 'exploitant' bekend zijn, bijvoorbeeld bij illegale activiteiten. Vandaar de kardinaliteit 0 ... Ook kan het in complexe bedrijfssituaties voor komen dat er meerdere exploitanten van dezelfde Activiteituitvoering zijn. Vandaar de kardinaliteit ... * Bijvoorbeeld, een omvangrijk chemisch complex (zoals Chemelot in Limburg) waar sprake is van een zgn. koepelvergunning terwijl er diverse bedrijven als uitvoerders actief zijn. Overigens kan er in dergelijke situaties sprake zijn van verschillende Activiteituitvoeringen met ieder een eigen exploitant.  </p>
