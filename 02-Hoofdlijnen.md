@@ -14,7 +14,7 @@ Het bestaat uit objecttypen (zie Figuur 2; de rechthoeken in de views), eigensch
 We lichten het informatiemodel toe aan de hand van zgn. views, een selectie van onderdelen van het informatiemodel voor een bepaald thema. Per view is het desbetreffende deel van het informatiemodel in twee diagrammen uitgewerkt. Het telkens eerste diagram bevat de objecttypen die tot de kern van die view behoren (in donkerder grijs) met alle daaraan gerelateerde andere objecttypen (in lichter grijs). Eventuele relaties tussen de laatstgenoemde objecttypen zijn niet weergegeven (zie daarvoor de view waarop het desbetreffende objecttype tot de kern behoort). Het telkens tweede diagram bevat de objecttypen die tot de kern van de view behoren, hun attribuutsoorten en hun relaties naar andere objecttypen (dus niet relaties vanuit andere objecttypen naar de 'kern-objecttypen'). Op deze wijze zijn in een dergelijk diagram alle eigenschappen van 'kern-objecttypen' verbeeld. 
 
 Bijlage 1 bevat een overzicht van de views met hun 'kern-objecttypen'. Daarin is snel te vinden in welke view een objecttype als 'kern-objecttype' is uitgewerkt.
-In de volgende paragraaf beschrijven we de structuur van het informatiemodel op hoofdlijnen, in hoofdstuk 3 in meer detail aan de hand van de views en diagrammen. In hoofdstuk 4 specificeren we de objecttypen, in hoofdstuk 5 de attribuut- en relatiesoorten en in hoofdstuk 6 de waardenlijsten.
+In de volgende paragraaf beschrijven we de structuur van het informatiemodel op hoofdlijnen, in hoofdstuk 3 in meer detail aan de hand van de views en diagrammen. In hoofdstuk 4 specificeren we de objecttypen, in hoofdstuk 5 de attribuut- en relatiesoorten en in hoofdstuk 6 de waardelijsten.
 
 ## De hoofdlijnen {#12E3403A}
 
