@@ -8,7 +8,7 @@ Het bestaat uit objecttypen (zie Figuur 2; de rechthoeken in de views), eigensch
 
 <figure id="ViewsMetKernObjecttypen">
    <img src="media/image4.png" alt="sturctuurelementen van het informatiemodel">
-   <figcaption>structuurelementen van het informatiemodel</figcaption>
+   <figcaption>Structuurelementen van het informatiemodel</figcaption>
 </figure>
 
 We lichten het informatiemodel toe aan de hand van zgn. views, een selectie van onderdelen van het informatiemodel voor een bepaald thema. Per view is het desbetreffende deel van het informatiemodel in twee diagrammen uitgewerkt. Het telkens eerste diagram bevat de objecttypen die tot de kern van die view behoren (in donkerder grijs) met alle daaraan gerelateerde andere objecttypen (in lichter grijs). Eventuele relaties tussen de laatstgenoemde objecttypen zijn niet weergegeven (zie daarvoor de view waarop het desbetreffende objecttype tot de kern behoort). Het telkens tweede diagram bevat de objecttypen die tot de kern van de view behoren, hun attribuutsoorten en hun relaties naar andere objecttypen (dus niet relaties vanuit andere objecttypen naar de 'kern-objecttypen'). Op deze wijze zijn in een dergelijk diagram alle eigenschappen van 'kern-objecttypen' verbeeld. 
