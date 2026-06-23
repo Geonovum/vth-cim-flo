@@ -34,7 +34,7 @@ Binnen het VTH-stelsel van de fysieke leefomgeving bestaan al verschillende info
 
 <figure id="fig:toepassingsgebied">
    <img src="media/image3.png" alt="">
-   <figcaption>afbakening toepassingsgebieden informatiemodellen</figcaption>
+   <figcaption>Afbakening toepassingsgebieden informatiemodellen</figcaption>
 </figure>
 
 ## Werkwijze
