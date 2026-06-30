@@ -34,7 +34,7 @@ Binnen het VTH-stelsel van de fysieke leefomgeving bestaan al verschillende info
 
 <figure id="fig:toepassingsgebied">
    <img src="media/image3.png" alt="">
-   <figcaption>afbakening toepassingsgebieden informatiemodellen</figcaption>
+   <figcaption>Afbakening toepassingsgebieden informatiemodellen</figcaption>
 </figure>
 
 ## Werkwijze
@@ -50,7 +50,7 @@ Het CIm VTH FLo is opgesteld onder begeleiding van een werkgroep bestaande uit v
 
 <b>Toegepaste methodiek</b>
 
-Voor de ontwikkeling van het informatiemodel is begonnen met een begrippenlijst. Vervolgens zijn zgn. triples opgesteld ter ondersteuning van de te maken keuzes in het informatiemodel. Een triple is een zogenaamde feitenzin. Deze verwoord een feit uit het domein en is opgebouwd uit twee begrippen met daartussen een werkwoordvervoeging (bijvoorbeeld ‘initiatiefnemer dient in vergunningaanvraag’).  Deze triples zijn zoveel mogelijk opgesteld op basis van zgn. user-stories die praktijkvoorbeelden uit het VTH -domein beschrijven. Daarnaast zijn bestaande informatiemodellen in dit domein geanalyseerd en waar mogelijk benut. Op basis van deze bronnen zijn vervolgens objecttypes, de relaties daartussen en de omschrijving van de objecttypes en relaties uitgewerkt en vastgelegd in Archimate-notatie (versie t/m 0.3). Vervolgens is overgestapt op vastlegging in UML conform de MIM-standaard [[MIM]].
+Voor de ontwikkeling van het informatiemodel is begonnen met een begrippenlijst. Vervolgens zijn zgn. triples opgesteld ter ondersteuning van de te maken keuzes in het informatiemodel. Een triple is een zogenaamde feitenzin. Deze verwoord een feit uit het domein en is opgebouwd uit twee begrippen met daartussen een werkwoordvervoeging (bijvoorbeeld ‘initiatiefnemer dient in vergunningaanvraag’).  Deze triples zijn zoveel mogelijk opgesteld op basis van zgn. user-stories die praktijkvoorbeelden uit het VTH -domein beschrijven. Daarnaast zijn bestaande informatiemodellen in dit domein geanalyseerd en waar mogelijk benut. Op basis van deze bronnen zijn vervolgens objecttypes, de relaties daartussen en de omschrijving van de objecttypes en relaties uitgewerkt en vastgelegd in Archimate-notatie (versie t/m 0.3). Vervolgens is overgestapt op vastlegging in UML conform de MIM-standaard [[MIM12]].
 
 ## Toepassing informatiemodel door stelselpartners {#0710165A}
 
@@ -75,4 +75,4 @@ Het gaan toepassen van dit informatiemodel in de dagelijkse praktijk behelst mee
 ## Leeswijzer
 
 Begin met het lezen van hoofdstuk 2, het informatiemodel op hoofdlijnen. Dit geeft zowel inzicht in de opbouw van dit document en daarmee de structuur waarin het informatiemodel is beschreven, als een globale indruk van de structuur en inhoud van het informatiemodel.
-Lees in de paragrafen 3.1 - 3.15  de views waarin u geïnteresseerd bent. Elke view geeft in detail inzicht in de structuur van het informatiemodel voor het desbetreffende thema. Wilt u vervolgens meer lezen over een attribuutsoort of een relatiesoort, klik dan op de betreffende klasse en u sprint automatisch naar de details van die klasse.
+Lees in de paragrafen 3.1 - 3.15  de views waarin u geïnteresseerd bent. Elke view geeft in detail inzicht in de structuur van het informatiemodel voor het desbetreffende thema. Wilt u vervolgens meer lezen over een attribuutsoort of een relatiesoort, klik dan op de betreffende klasse en u springt automatisch naar de details van die klasse.
