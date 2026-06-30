@@ -1,0 +1,189 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix begrippenkader: <http://definities.geostandaarden.nl/vth/id/begrippenkader/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix ea: <http://www.sparxsystems.eu/def/ea#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vthbegrip: <http://definities.geostandaarden.nl/vth/id/begrip/>.
+
+begrippenkader:VTH dct:title "begrippenkader VTH"@nl;
+                   a skos:ConceptScheme;
+                   rdfs:comment "Begrippenkader VTH, voor programma Digitalisering VTH"@nl;
+                   skos:hasTopConcept vthbegrip:activiteit,
+                   vthbegrip:activiteitinformatie,
+                   vthbegrip:activiteitmelding,
+                   vthbegrip:activiteituitvoering,
+                   vthbegrip:adresseerbaarobject,
+                   vthbegrip:algemeenverbindendvoorschrift,
+                   vthbegrip:andergeoobject,
+                   vthbegrip:besluit,
+                   vthbegrip:betrokkene,
+                   vthbegrip:bevinding,
+                   vthbegrip:controle,
+                   vthbegrip:geoobject,
+                   vthbegrip:handhavingsmaatregel,
+                   vthbegrip:handhavingsverzoek,
+                   vthbegrip:incident,
+                   vthbegrip:incidentsignaal,
+                   vthbegrip:informatieongewoonvoorval,
+                   vthbegrip:informatieobject,
+                   vthbegrip:kadastraleonroerendezaak,
+                   vthbegrip:klacht,
+                   vthbegrip:natuurlijkpersoon,
+                   vthbegrip:nietnatuurlijkpersoon,
+                   vthbegrip:overtreding,
+                   vthbegrip:overweging,
+                   vthbegrip:pand,
+                   vthbegrip:signaal,
+                   vthbegrip:specifiekvoorschrift,
+                   vthbegrip:toestemming,
+                   vthbegrip:toestemmingsaanvraag,
+                   vthbegrip:topografischobject,
+                   vthbegrip:verzoek,
+                   vthbegrip:vestiging,
+                   vthbegrip:vthinstantie,
+                   vthbegrip:vthobject,
+                   vthbegrip:zaak .
+                   
+vthbegrip:activiteit a skos:Concept;
+                     skos:definition "Type van menselijk handelen (of menselijk nalaten) waarbij, of waardoor een verandering of effect in de fysieke leefomgeving wordt of kan worden bewerkstelligd."@nl;
+                     skos:inScheme begrippenkader:VTH;
+                     skos:prefLabel "activiteit"@nl.
+vthbegrip:activiteitinformatie a skos:Concept;
+                               skos:definition "Een Verzoek zijnde het voldoen aan een informatieplicht met betrekking tot het uitvoeren van bepaalde activiteiten op een specifieke locatie in de fysieke leefomgeving."@nl;
+                               skos:inScheme begrippenkader:VTH;
+                               skos:prefLabel "activiteitinformatie"@nl.
+vthbegrip:activiteitmelding a skos:Concept;
+                            skos:definition "Een Verzoek zijnde een melding aan een bevoegd gezag over het voornemen tot het uitvoeren van bepaalde activiteiten op een specifieke locatie in de fysieke leefomgeving."@nl;
+                            skos:inScheme begrippenkader:VTH;
+                            skos:prefLabel "activiteitmelding"@nl.
+vthbegrip:activiteituitvoering a skos:Concept;
+                               skos:definition "Menselijk handelen (of menselijk nalaten) waarbij, of waardoor een verandering of effect in de fysieke leefomgeving wordt of kan worden bewerkstelligd."@nl;
+                               skos:inScheme begrippenkader:VTH;
+                               skos:prefLabel "activiteituitvoering"@nl.
+vthbegrip:adresseerbaarobject a skos:Concept;
+                               skos:definition "Een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats."@nl;
+                               skos:inScheme begrippenkader:VTH;
+                               skos:prefLabel "adresseerbaar object"@nl.
+vthbegrip:algemeenverbindendvoorschrift a skos:Concept;
+                                          skos:definition "Een door de overheid op basis van haar regelgevende bevoegdheid uitgevaardigde regel met juridische werkingskracht waarvan naleving krachtens de wet afgedwongen kan worden."@nl;
+                                          skos:inScheme begrippenkader:VTH;
+                                          skos:prefLabel "algemeen verbindend voorschrift"@nl.
+vthbegrip:andergeoobject a skos:Concept;
+                           skos:definition "Een fenomeen in de werkelijkheid, met een directe referentie naar een plaats op het aardoppervlak, niet zijnde een andere specialisatie van GEO-OBJECT."@nl;
+                           skos:inScheme begrippenkader:VTH;
+                           skos:prefLabel "ander geo-object"@nl.
+vthbegrip:besluit a skos:Concept;
+                  skos:definition "Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval."@nl;
+                  skos:inScheme begrippenkader:VTH;
+                  skos:prefLabel "besluit"@nl.
+vthbegrip:betrokkene a skos:Concept;
+                     skos:definition "Een ieder die uit hoofde van taken, rechten en/of verplichtingen een rol speelt in het VTH-domein Fysieke Leefomgeving."@nl;
+                     skos:inScheme begrippenkader:VTH;
+                     skos:prefLabel "betrokkene"@nl.
+vthbegrip:bevinding a skos:Concept;
+                    skos:definition "Constatering bij de beoordeling van het naleefgedrag van de normstelling."@nl;
+                    skos:inScheme begrippenkader:VTH;
+                    skos:prefLabel "bevinding"@nl.
+vthbegrip:controle a skos:Concept;
+                   skos:definition "Beoordeling van de uitvoering van activiteiten op de naleving van de geldende regels voor die activiteiten."@nl;
+                   skos:inScheme begrippenkader:VTH;
+                   skos:prefLabel "controle"@nl.
+vthbegrip:geoobject a skos:Concept;
+                     skos:definition "Fenomeen in de werkelijkheid dat direct of indirect is geassocieerd met een plaats relatief ten opzichte van de aarde."@nl;
+                     skos:inScheme begrippenkader:VTH;
+                     skos:prefLabel "geo-object"@nl.
+vthbegrip:handhavingsmaatregel a skos:Concept;
+                               skos:definition "Maatregel om de naleving van wet- en regelgeving te bewerkstelligen. "@nl;
+                               skos:inScheme begrippenkader:VTH;
+                               skos:prefLabel "handhavingsmaatregel"@nl.
+vthbegrip:handhavingsverzoek a skos:Concept;
+                             skos:definition "Een verzoek van een belanghebbende om een besluit te nemen om te handhaven bij een mogelijke overtreding."@nl;
+                             skos:inScheme begrippenkader:VTH;
+                             skos:prefLabel "handhavingsverzoek"@nl.
+vthbegrip:incident a skos:Concept;
+                   skos:definition "Een negatieve, onverwachte, en onvoorziene gebeurtenis die storend is, overlast veroorzaakt en / of een risico vormt voor de veiligheid van de fysieke leefomgeving."@nl;
+                   skos:inScheme begrippenkader:VTH;
+                   skos:prefLabel "incident"@nl.
+vthbegrip:incidentsignaal a skos:Concept;
+                          skos:definition "De signalering van een gebeurtenis die storend is, overlast veroorzaakt en/of een risico vormt voor de veiligheid van de fysieke leefomgeving."@nl;
+                          skos:inScheme begrippenkader:VTH;
+                          skos:prefLabel "incidentsignaal"@nl.
+vthbegrip:informatieongewoonvoorval a skos:Concept;
+                                      skos:definition "Informatieverstrekking over een gebeurtenis die afwijkt van de normale activiteituitvoering waardoor nadelige gevolgen voor het milieu (dreigen te) ontstaan."@nl;
+                                      skos:inScheme begrippenkader:VTH;
+                                      skos:prefLabel "informatie ongewoon voorval"@nl.
+vthbegrip:informatieobject a skos:Concept;
+                           skos:definition "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken. "@nl;
+                           skos:inScheme begrippenkader:VTH;
+                           skos:prefLabel "informatieobject"@nl.
+vthbegrip:kadastraleonroerendezaak a skos:Concept;
+                                     skos:definition "De grond, de niet gewonnen delfstoffen, de met de grond verenigde beplantingen, alsmede de gebouwen en werken die duurzaam met de grond zijn verenigd, hetzij rechtstreeks, hetzij door vereniging met andere gebouwen of werken."@nl;
+                                     skos:inScheme begrippenkader:VTH;
+                                     skos:prefLabel "kadastrale onroerende zaak"@nl.
+vthbegrip:klacht a skos:Concept;
+                 skos:definition "Melding van overlast van of van potentieel onrechtmatig handelen bij de uitvoering van activiteiten in de fysieke leefomgeving. "@nl;
+                 skos:inScheme begrippenkader:VTH;
+                 skos:prefLabel "klacht"@nl.
+vthbegrip:natuurlijkpersoon a skos:Concept;
+                             skos:definition "Een persoon zijnde een mens."@nl;
+                             skos:inScheme begrippenkader:VTH;
+                             skos:prefLabel "natuurlijk persoon"@nl.
+vthbegrip:nietnatuurlijkpersoon a skos:Concept;
+                                  skos:definition "Een ieder die rechten en plichten kan hebben die geen Natuurlijk Persoon is. "@nl;
+                                  skos:inScheme begrippenkader:VTH;
+                                  skos:prefLabel "niet-natuurlijk persoon"@nl.
+vthbegrip:overtreding a skos:Concept;
+                      skos:definition "Het niet naleven van de geldende regels bij de uitvoering van activiteiten. "@nl;
+                      skos:inScheme begrippenkader:VTH;
+                      skos:prefLabel "overtreding"@nl.
+vthbegrip:overweging a skos:Concept;
+                     skos:definition "De formulering van de redenen die ten grondslag liggen aan de Toestemming."@nl;
+                     skos:inScheme begrippenkader:VTH;
+                     skos:prefLabel "overweging"@nl.
+vthbegrip:pand a skos:Concept;
+               skos:definition "Kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is. "@nl;
+               skos:inScheme begrippenkader:VTH;
+               skos:prefLabel "pand"@nl.
+vthbegrip:signaal a skos:Concept;
+                  skos:definition "Indicatie, zijnde geen Klacht en Informatie ongewoon voorval, dat er sprake is van een gebeurtenis die storend is, overlast veroorzaakt en / of een risico vormt voor de veiligheid van de fysieke leefomgeving. "@nl;
+                  skos:inScheme begrippenkader:VTH;
+                  skos:prefLabel "signaal"@nl.
+vthbegrip:specifiekvoorschrift a skos:Concept;
+                                skos:definition "Een dwingende eis die van toepassing is op een wettelijk onderwerp, &#243;f binnen een bestuurlijke uitspraak in een specifiek geval een voorschrift dat betrekking heeft op een specifiek bedrijfsonderwerp."@nl;
+                                skos:inScheme begrippenkader:VTH;
+                                skos:prefLabel "specifiek voorschrift"@nl.
+vthbegrip:toestemming a skos:Concept;
+                      skos:definition "Toestemming van een bevoegd gezag voor het uitoefenen van bepaalde activiteiten op een specifieke locatie in de fysieke leefomgeving."@nl;
+                      skos:inScheme begrippenkader:VTH;
+                      skos:prefLabel "toestemming"@nl.
+vthbegrip:toestemmingsaanvraag a skos:Concept;
+                               skos:definition "Een Verzoek zijnde een aanvraag voor toestemming van een bevoegd gezag voor het op een bepaalde wijze uitvoeren van bepaalde activiteiten op een specifieke locatie in de fysieke leefomgeving."@nl;
+                               skos:inScheme begrippenkader:VTH;
+                               skos:prefLabel "toestemmingsaanvraag"@nl.
+vthbegrip:topografischobject a skos:Concept;
+                              skos:definition "Een grootschalig topografisch object zoals vastgelegd in de BGT."@nl;
+                              skos:inScheme begrippenkader:VTH;
+                              skos:prefLabel "topografisch object"@nl.
+vthbegrip:verzoek a skos:Concept;
+                  skos:definition "Aanvraag, (activiteit)melding of gegevens en bescheiden ter voldoening aan een informatieverplichting, ingediend door een initiatiefnemer bij een bevoegd gezag."@nl;
+                  skos:inScheme begrippenkader:VTH;
+                  skos:prefLabel "verzoek"@nl.
+vthbegrip:vestiging a skos:Concept;
+                    skos:definition "Bundeling van economische activiteiten van een onderneming of rechtspersoon die duurzaam uitgeoefend worden op of in een locatie."@nl;
+                    skos:inScheme begrippenkader:VTH;
+                    skos:prefLabel "vestiging"@nl.
+vthbegrip:vthinstantie a skos:Concept;
+                        skos:definition "Een Niet-natuurlijk persoon die op wettelijke grondslag vergunningverlening-, toezicht- en/of handhavingstaken uitvoert."@nl;
+                        skos:inScheme begrippenkader:VTH;
+                        skos:prefLabel "vth-instantie"@nl.
+vthbegrip:vthobject a skos:Concept;
+                     skos:definition "Een ruimtelijk object of samenstelling daarvan waarvoor wet- en regelgeving ten aanzien van de fysieke leefomgeving van toepassing is en dat relevant is te onderscheiden vanuit het oogpunt van de uitvoering van vergunningverlening, toezicht en/of handhaving."@nl;
+                     skos:inScheme begrippenkader:VTH;
+                     skos:prefLabel "vth-object"@nl.
+vthbegrip:zaak a skos:Concept;
+               skos:definition "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden. "@nl;
+               skos:inScheme begrippenkader:VTH;
+               skos:prefLabel "zaak"@nl.
