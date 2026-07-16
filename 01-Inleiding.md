@@ -74,5 +74,5 @@ Het gaan toepassen van dit informatiemodel in de dagelijkse praktijk behelst mee
 
 ## Leeswijzer
 
-Begin met het lezen van hoofdstuk 2, het informatiemodel op hoofdlijnen. Dit geeft zowel inzicht in de opbouw van dit document en daarmee de structuur waarin het informatiemodel is beschreven, als een globale indruk van de structuur en inhoud van het informatiemodel.
-Lees in de paragrafen 3.1 - 3.15  de views waarin u geïnteresseerd bent. Elke view geeft in detail inzicht in de structuur van het informatiemodel voor het desbetreffende thema. Wilt u vervolgens meer lezen over een attribuutsoort of een relatiesoort, klik dan op de betreffende klasse en u springt automatisch naar de details van die klasse.
+Begin met het lezen van hoofdstuk 2, het [informatiemodel op hoofdlijnen](#informatiemodel-op-hoofdlijnen). Dit geeft zowel inzicht in de opbouw van dit document en daarmee de structuur waarin het informatiemodel is beschreven, als een globale indruk van de structuur en inhoud van het informatiemodel.
+Lees in de paragrafen [3.1](#EAID_D6B63FFD_736E_4db2_9807_8A9E5A22D2C8) - [3.15](#EAID_8279DB6D_9353_4fcc_A31C_787591A2C257)  de views waarin u geïnteresseerd bent. Elke view geeft in detail inzicht in de structuur van het informatiemodel voor het desbetreffende thema. Wilt u vervolgens meer lezen over een attribuutsoort of een relatiesoort, klik dan op de betreffende klasse en u springt automatisch naar de details van die klasse.
