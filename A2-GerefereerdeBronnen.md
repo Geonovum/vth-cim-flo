@@ -10,7 +10,7 @@ informatiemodellen en bronnen. Dit betreffen:
 | BAG Begrippenlijst         | […]                                                                                                                                              |
 | BGT Gegevenscatalogus      | […]                                                                                                                                              |
 | BRP                        | Basisregistratie Personen (ministerie van Binnenlandse zaken)                                                                                    |
-| CIMOW                      | Conceptueel informatiemodel Omgevingswet (Geonovum)                                                                                              |
+| CIM-OW                     | [Conceptueel informatiemodel Omgevingswet (Geonovum)](https://docs.geostandaarden.nl/dso/dso-cim-ow/)                                                                                              |
 | DigiVTH                    | Programma Digitalisering VTH (www.digitaliseringVTH.nl). Het voorliggende informatiemodel is in belangrijke mate binnen dit programma opgesteld. |
 | DSO-thesaurus              | […] ([…])                                                                                                                                        |
 | GIR                        | Gemeenschappelijke InspectieRuimte ([…])                                                                                                         |
