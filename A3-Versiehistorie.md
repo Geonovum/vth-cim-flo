@@ -28,8 +28,6 @@ De catalogus is omgezet naar het ReSpec-formaat. Hierdoor is de documentstructuu
 
 - Conform ReSpec sluit de catalogus af met een [Lijst met figuren](#tof) en [Referenties](#references).
 
-** Overige wijzigingen
-
 ## In paragraaf 3.22 Attribuut- en relatiesoort details
 
 - Inconsistenties in relatieklassen (veldnamen en lege velden) zijn gecorrigeerd en afgestemd op de ReSpec-structuur.
@@ -49,5 +47,5 @@ De catalogus is omgezet naar het ReSpec-formaat. Hierdoor is de documentstructuu
 | **Github issue**                                        | **Soort wijziging**                  | **Wijziging**                                                                           |
 |-------------------------------------------------------- | ------------------------------------ | --------------------------------------------------------------------------------------- |
 |[11](https://github.com/Geonovum/vth-cim-flo/issues/11)  | Waardelijst benoemd                  | Bij de attribuutsoort Land van het objecttype Adres buitenland (par. 3.22.2.1.4) is toegevoegd dat hiervoor als waardelijst gebruikt wordt: Tabel 34 Landentabel van de Rijksdienst voor Identiteitsgegevens (Rv­IG).|
-|[12](https://github.com/Geonovum/vth-cim-flo/issues/12)  | Patroon gecorrigeerd                 | Bij de attribuutsoort Regeltekstidentificatie van het objecttype Algemeen verbindend voorschrift (par. 3.22.1.6.1) is het metagegeven 'Patroon' gewijzigd van 'wId: [bevoegd_gezag]\_[versienummer]\__[prefix]\__)[element_ref](_[nummer]' naar 'wId: [bevoegd_gezag]\_[versienummer]\__[eId]'.|
+|[12](https://github.com/Geonovum/vth-cim-flo/issues/12)  | Patroon gecorrigeerd                 | Bij de attribuutsoort Regeltekstidentificatie van het objecttype Algemeen verbindend voorschrift (par. 3.22.1.6.1) is het metagegeven 'Patroon' gewijzigd van 'wId: [bevoegd_gezag]\_[versienummer]\_\_[prefix]\_\_)[element_ref](_[nummer]' naar 'wId: [bevoegd_gezag]\_[versienummer]\_\_[eId]'.|
 |[49](https://github.com/Geonovum/vth-cim-flo/issues/49)  | Kardinaliteit relatie aangepast      | Bij de relatiesoort Activiteituitvoering wordt gedaan door betrokkene (par. 3.22.1.4.12) is de 'indicatie kardinaliteit bron' gewijzigd van 0..1 naar 0..*. Dit betekent dat de activiteituitvoering niet wordt gedaan door maximaal één betrokkene, maar dat dit meerdere betrokkenen kunnen zijn. |
