@@ -15,12 +15,11 @@ let respecConfig = {
 
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
   //-- zie: https://geonovum.github.io/handleiding-tooling/ReSpec/#pubdomain
-  //-- TODO: vul pubDomain in
   pubDomain: "vth",
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
 
   license: "cc-by",                 // Attribution, met bronvermelding
-  //-- TODO shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
+  //-- hortName is verplicht! (komt in de URL: kies logische afkorting)--------------
   shortName: "cim-vth-flo",
   
   //edDraftURI = De URI van de draft version. Deze wordt automatisch afgeleid van de github URI; maar kan hier overschreven worden. 
@@ -35,7 +34,7 @@ let respecConfig = {
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
   previousPublishDate: "2025-12-24",
   previousMaturity: "def",
-  //-- TODO: de namen van de Editor(s) / Redacteur(en)---------------------------------------
+  //-- de namen van de Editor(s) / Redacteur(en)---------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   editors:
     [
@@ -55,11 +54,11 @@ let respecConfig = {
         companyURL: "https://www.geonovum.nl",
       }
     ],
-  // TODO: Vul de github URL in.
+  //  Vul de github URL in.
   //neem hier de URL van de github repository op waar het respec document in staat
   github: "https://github.com/Geonovum/vth-cim-flo",
   // Create PDF and link to file in header (optional):
-  // TODO: Change the filename as preferred.
+  // Change the filename as preferred.
   alternateFormats: [
       {
           label: "pdf",
