@@ -6,8 +6,8 @@ In dit en de volgende hoofdstukken beschrijven we het informatiemodel. Het gaat 
 
 Het bestaat uit objecttypen (zie Figuur 2; de rechthoeken in de views), eigenschappen daarvan ('gegevens'; de attribuutsoorten) en relaties (relatiesoorten; de verbindingslijnen tussen de objecttypen in de diagrammen). Bij een attribuutsoort kan een waardelijst van toepassing zijn. Deze is gemodelleerd als zgn. referentielijst dan wel als enumeratie. Elke relatiesoort heeft een richting, aangegeven met een pijlpunt. De naam van de relatiesoort moet in die richting gelezen worden. Een gesloten pijlpunt geeft een zgn. specialisatie-relatie aan. Zie de toelichting bij het desbetreffende diagram wat dit betekent.
 
-<figure id="ViewsMetKernObjecttypen">
-   <img src="media/image4.png" alt="sturctuurelementen van het informatiemodel">
+<figure id="Structuurelementen">
+   <img src="media/Structuurelementen.png" alt="sturctuurelementen van het informatiemodel">
    <figcaption>Structuurelementen van het informatiemodel</figcaption>
 </figure>
 
@@ -33,8 +33,8 @@ Processen voor bijvoorbeeld het verlenen van Toestemmingen of het uitvoeren van 
 
 In onderstaande figuur wordt gevisualiseerd in welke view de getoonde objecttypen te vinden zijn; de views zelf bevatten meer objecttypen.
 
-<figure id="Cim-hoofdlijnen">
-   <img src="media/image6.png" alt="UML diagram met kernobjecten van CIm VTH Flo met views">
+<figure id="hoofdlijnen-met-views">
+   <img src="media/hoofdlijnen-met-views.png" alt="UML diagram met kernobjecten van CIm VTH Flo met views">
    <figcaption>CIm VTH FLo op hoofdlijnen met views</figcaption>
 </figure>
 
