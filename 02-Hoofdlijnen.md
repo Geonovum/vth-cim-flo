@@ -33,7 +33,7 @@ Processen voor bijvoorbeeld het verlenen van Toestemmingen of het uitvoeren van 
 
 In onderstaande figuur wordt gevisualiseerd in welke view de getoonde objecttypen te vinden zijn; de views zelf bevatten meer objecttypen.
 
-<figure id="ViewsMetKernObjecttypen">
+<figure id="Cim-hoofdlijnen">
    <img src="media/image6.png" alt="UML diagram met kernobjecten van CIm VTH Flo met views">
    <figcaption>CIm VTH FLo op hoofdlijnen met views</figcaption>
 </figure>
