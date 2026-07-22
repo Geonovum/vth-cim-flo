@@ -18,7 +18,7 @@ In de volgende paragraaf beschrijven we de structuur van het informatiemodel op 
 
 ## De hoofdlijnen {#12E3403A}
 
-<figure id="ViewsMetKernObjecttypen">
+<figure id="KernObjecttypen">
    <img src="media/image5.png" alt="UML diagram met kernobjecten van CIm VTH Flo">
    <figcaption>CIm VTH FLo op hoofdlijnen</figcaption>
 </figure>
