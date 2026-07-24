@@ -59,12 +59,12 @@ let respecConfig = {
   github: "https://github.com/Geonovum/vth-cim-flo",
   // Create PDF and link to file in header (optional):
   // Change the filename as preferred.
-  alternateFormats: [
-      {
-          label: "pdf",
-          uri: "cim-vth-flo.pdf",
-      },
-  ],
+  //  alternateFormats: [
+  //      {
+  //          label: "pdf",
+  //          uri: "cim-vth-flo.pdf",
+  //      },
+  //  ],
   // Lokale lijst voor bibliografie
   // - Kijk eerst naar de beschikbare www.specref.org .
   // - Kijk daarna in de organisatieconfig.
